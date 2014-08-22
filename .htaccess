@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteCond $1 !^(loader\.php|images|install|robots\.txt|css|js|gallery|style|script)
+RewriteRule ^(.*)$ /loader.php/$1 [L]
+
+
+ 
+ 

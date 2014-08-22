@@ -1,0 +1,60 @@
+/* special css classes for invoices */
+
+.invoice-background { 
+	
+	padding: 5px 10px 0 10px;	
+	
+	
+}
+
+
+.invoice-background h3 { 
+
+	margin-bottom: 8px;
+	font-size:24px;	
+}
+
+
+table.invoice-table {
+	width: 100%;
+} 
+
+
+
+.invoice-table textarea { 
+	
+	border: 0;
+	background-color: #e6e6e6;
+	font: 14px arial; 
+	overflow: hidden; 
+	resize: none; 
+	height: 18px; 
+	width: 97%
+	
+}
+
+.invoice-table textarea:hover, .invoice-table textarea:focus { background-color:#ffffff; }
+
+
+
+
+
+
+
+
+tr.row-title {
+	background-color: #c8cac9;
+	height: 25px;
+	font-weight: bold;	
+}
+
+
+
+
+.input-date {
+	
+	width:50px;
+	margin:0;
+	padding:0;
+	 
+}

@@ -1,0 +1,247 @@
+html, body, a, p, span, ul, li, h1, h2, h3, h4, h5, div, img, table, tr, td, ul, li,form {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+html {
+    direction: rtl;
+    text-align: right;
+    font-size: 12px;
+    font-family: Tahoma, Arial, sans-serif;
+    color:#646c6e;
+}
+a {
+    text-decoration: underline;
+    color: #4da7b3;
+}
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    line-height: 20px;
+    color:#646c6e;
+}
+
+
+.bold {
+    font-weight: bold;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.darker {
+    color: #222a2b
+}
+
+.light1 {
+    color: #646c6e;
+}
+
+.light2 {
+    color: #4c5255;
+}
+.f11 {
+    font-size: 11px;
+}
+
+.f14 {
+    font-size: 14px;
+}
+
+
+.header {
+    height: 20px;
+    /*background: #999;*/
+}
+
+h1,h2,h3,h4,h5 {
+    color: #222a2b;
+    font-weight: normal;
+}
+
+h1 {
+    
+}
+h2 {
+    font-size: 32px;
+}
+h3 {
+    font-size: 26px;
+}
+h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+h5 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+body {
+    background: url(http://getcontrol.co.il/images/cms/login/bg.jpg) no-repeat center top;
+}
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.main-content {
+    min-height: 200px;
+    overflow: hidden;
+    display: block;
+    clear: both;
+}
+.content {
+    height: 302px;
+    background: url(http://getcontrol.co.il/images/cms/login/bg.png) no-repeat center bottom;
+    width: 890px;
+    margin: 20px auto 0;
+    padding-top: 40px;
+    position: relative;
+    
+}
+
+.titles {
+    background: url(http://getcontrol.co.il/images/cms/login/titles.png) no-repeat right top;
+    width: 407px;
+    height: 164px;
+    margin-top: 22px;
+    margin-right: 20px;
+}
+
+.namer {
+    clear: both;
+    width: 260px;
+    padding: 4px 4px 2px;
+    border: 1px solid #dedede;
+    font-size: 16px;
+    height: 16px;
+    margin-bottom: 16px;
+}
+
+.send-btn {
+    background: url(http://getcontrol.co.il/images/cms/login/getin.png) no-repeat center top;
+    height: 25px;
+    width: 120px;
+    border: none;
+    padding: 0;
+    float: left;
+    cursor: pointer;
+}
+
+.botox {
+    background: url(http://getcontrol.co.il/images/cms/login/botox.png) no-repeat center top;
+    width: 847px;
+    height: 68px;
+    margin: 25px auto 0;
+}
+
+.rotator {
+    background: url(http://getcontrol.co.il/images/cms/login/rotating-wheels.gif) no-repeat center top;
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    height: 226px;
+    width: 320px;
+}
+
+.get-in {
+    padding-top: 58px;
+    margin-right: 137px;
+}
+.pre-footer {
+    display: block;
+    clear: both;
+}
+.footer {
+    padding: 25px 20px 0;
+    height: 140px;
+    clear: both;
+}
+hr {
+    color: #fff;
+    background: #c0c2c2;
+    margin-bottom: 15px;
+    height: 1px;
+    //color: #c0c2c2;
+}
+
+.foot-links li {
+    list-style: none;
+    display: inline;
+    
+}
+
+.foot-links li span {
+    color: #888389;
+    font-size: 11px;
+    padding: 0px 8px 0 4px;
+}
+.rights {
+    color: #888389;
+    font-size: 11px;
+    float: right;
+    line-height: 35px;
+}
+.foot-links li a {
+    color: #888389;
+    font-size: 11px;
+}
+
+.open-studio a {
+    color: #362f2d;
+    padding-left: 20px;
+    background: url(http://getcontrol.co.il/images/cms/login/open-logo.png) no-repeat left bottom;
+    height:27px;
+    float: left;
+    line-height: 33px;
+    cursor: pointer;
+}
+.open-studio a:hover {
+    text-decoration: none;
+    background: url(http://getcontrol.co.il/images/cms/login/open-logo.png) no-repeat left 1px;
+}
+.open-studio {
+    float: left;
+    color: #362f2d;
+}
+
+.di, .bui, .stu, .ope {
+    float: left;
+    font-family: tahoma;
+    font-size: 12px;
+}
+
+.di {
+    padding: 0px 8px;
+    color: #888389;
+}
+
+.bui {
+    color: #888389;
+    font-size: 11px;
+    line-height: 35px;
+    
+}
+.ope {
+    color:#35b21f;
+}
+
+
+
+
+
+
+
+
+
+
+

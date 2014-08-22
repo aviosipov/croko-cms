@@ -1,0 +1,978 @@
+html, body, a, p, span, ul, li, h1, h2, h3, h4, h5, div, img, table, tr, td, ul, li, form, input {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+html {
+    direction: rtl;
+    text-align: right;
+    font-size: 12px;
+    font-family: Tahoma, Arial, sans-serif;
+    color:#3f4c4c;
+}
+
+.clear
+ {
+    display: block;
+    clear: both;
+ }
+a {
+    text-decoration: underline;
+    color: #4da7b3;
+}
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    line-height: 20px;
+    color:#3f4c4c;
+    margin-bottom: 15px;
+    text-align:right;
+}
+
+
+ul {
+    list-style-position: inside;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+.roundy {
+    border-radius: 4px;
+}
+.last {
+    padding-left: 0px !important;
+    margin-left: 0px !important;
+}
+.bold {
+    font-weight: bold;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.darker {
+    color: #222a2b
+}
+
+.light1 {
+    color: #646c6e;
+}
+
+.light2 {
+    color: #4c5255;
+}
+.f11 {
+    font-size: 11px;
+}
+
+.f14 {
+    font-size: 14px;
+}
+
+
+.header {
+    min-height: 120px;
+    /*background: #999;*/
+    padding: 0px 0px 20px;
+    position: relative;
+    /*overflow: hidden;*/
+    z-index: 100;
+}
+
+
+
+.none {
+    display: none;
+}
+h1,h2,h3,h4,h5 {
+    color: #222a2b;
+    font-weight: normal;
+}
+
+h1 {
+    
+}
+h2 {
+    font-size: 28px;
+}
+h3 {
+    font-size: 20px;
+}
+h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+h5 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+h4 a {
+    text-decoration: none;
+}
+h4 a:hover {
+    text-decoration: underline;
+}
+
+body {
+}
+
+.background-pic {
+    background: #d0d0d0 url(/images/papa/background.png) repeat center top;
+    
+}
+
+
+
+
+.background-pic {
+    /*background: #d0d0d0 url(/images/papa/background2.png) repeat-x center top;*/
+    
+}
+.background-pic {
+    /*background: #2e2e2e url(/images/papa/background3.jpg) repeat-x center top;*/
+    
+}
+.background-pic {
+    /*background: #8a9991 url(/images/papa/background4.png) repeat center top;*/
+    
+}
+.background-pic {
+    padding: 50px 0 20px
+}
+
+.background-pic .container {
+    padding: 0px 19px;
+    background: #fff;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.main-content {
+    min-height: 200px;
+    overflow: hidden;
+    display: block;
+    clear: both;
+    padding-top: 20px;
+}
+.content {
+    min-height: 400px;
+    position: relative;
+    z-index:1;
+    
+}
+.pre-footer {
+    display: block;
+    clear: both;
+}
+.footer {
+    padding: 25px 0px 0;
+    height: 80px;
+    clear: both;
+}
+hr {
+    color: #fff;
+    background: #c0c2c2;
+    margin-bottom: 15px;
+    height: 1px;
+    //color: #c0c2c2;
+    border: none;
+}
+
+.foot-links li {
+    list-style: none;
+    display: inline;
+    zoom: 1;
+    
+}
+
+.foot-links li span {
+    color: #888389;
+    font-size: 11px;
+    padding: 0px 8px 0 4px;
+}
+.rights {
+    color: #888389;
+    font-size: 11px;
+    float: right;
+    line-height: 35px;
+}
+.foot-links li a {
+    color: #888389;
+    font-size: 11px;
+    zoom: 1;
+}
+
+.open-studio a {
+    color: #362f2d;
+    padding-left: 20px;
+    background: url(/images/papa/open-logo.png) no-repeat left bottom;
+    height:27px;
+    float: left;
+    line-height: 33px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.open-studio a:hover {
+    text-decoration: none;
+    background: url(/images/papa/open-logo.png) no-repeat left 1px;
+}
+.open-studio {
+    float: left;
+    color: #362f2d;
+}
+
+.di, .bui, .stu, .ope {
+    float: left;
+    font-family: tahoma;
+    font-size: 12px;
+}
+
+.di {
+    padding: 0px 8px;
+    color: #888389;
+}
+
+.bui {
+    color: #888389;
+    font-size: 11px;
+    line-height: 35px;
+    
+}
+.ope {
+    color:#35b21f;
+}
+
+.logo {
+    min-height: 108px;
+}
+
+
+
+/*------------------------------------------ menu ---------------------------------------------*/
+
+.menu {
+    height: 34px;
+    background: #999 url(/images/papa/gradi.png) repeat-x center top;
+    padding: 2px 4px 0px;
+    border-radius: 4px;
+    zoom: 1;
+    display: block;
+    /*width: 500px;*/
+    /*clear: right;*/
+    /*clear: left;*/
+}
+
+.menu ul {
+    zoom: 1;
+    height: 34px;
+    display: block;
+}
+
+.menu li {
+    list-style: none;
+    display: inline;
+    padding: 0px 0px 10px 0px;
+    margin-bottom: 0;
+    position: relative;
+    height: 34px;
+    zoom: 1;
+    z-index: 101
+    }
+
+.menu li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    margin: 0px 8px 0px 10px;
+    zoom: 1;
+}
+.menu li a:hover {
+    color: #ddf3d5;
+}
+.menu li:hover ul.sub-menu {
+    display: block;
+    z-index: 90;
+}
+.menu li ul.sub-menu {
+    display: none;
+    width: 180px;
+    min-height: 24px;
+    height: auto;
+    position: absolute;
+    right: 0px;
+    top: 24px;
+    z-index: 100;
+    background: #a1d36b;
+    padding: 4px 10px 0px;
+    overflow: hidden;
+    //border-top: solid 10px transparent;
+}
+
+.menu li ul.sub-menu .laster {
+    border-bottom: none;
+}
+ul.sub-menu li {
+    border-bottom: 1px dotted #fff;
+    width: 180px;
+    display: block;
+    padding: 0px 0px 4px;
+    margin-bottom: 2px;
+    text-align: right;
+    height: 20px;
+    float: right;
+    
+}
+
+ul.sub-menu li a {
+    margin: 0px !important;
+    display: block;
+}
+.doter {
+    font-size: 46px;
+    font-family: comic sans ms;
+    color: #fff;
+    vertical-align:-30px;
+    position: relative;
+    top: -33px;
+    zoom: 1;
+}
+
+.callus {
+    font-size: 24px;
+    color: #2f54a2;
+    height: auto;
+    padding-top: 20px;
+    width: 440px;
+}
+
+.callus.left {
+    text-align: left;
+}
+.left-menu {
+    
+}
+.left-menu .callus {
+    text-align: left;
+    
+}
+
+.left-menu .menu {
+    clear: left;
+}
+
+
+.down {
+    clear: both;
+    float: none;
+    margin-top: 20px;
+}
+/*------------------------------------------ end-menu ---------------------------------------------*/
+
+
+/*------------------------------------------ slider ---------------------------------------------*/
+
+.slider {
+    padding-bottom: 24px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.slider-shadow {
+    position: absolute;
+    bottom: 0px;
+    height: 24px;
+    width: 960px;
+    right: 8px;
+    background: url(/images/papa/slider-shadow.png) no-repeat center top;
+}
+
+.image-holder {
+    border-radius: 4px;
+    overflow: hidden;
+}
+.image-holder img{
+    display: block;
+}
+#slideshow, .slider, .image-holder {
+    height: 260px;
+    overflow: hidden;
+}
+#slideshow {
+    position:absolute !important;
+    right: 0px;
+    width: 960px;
+    overflow: hidden;
+    z-index:2;
+    border-radius: 4px;
+}
+
+.fc #slideshow {
+    width: 520px;
+}
+.af #slideshow {
+    width: 740px;
+}
+
+#slideshow img {
+    position:absolute;
+    top:0 !important;
+    left:0 !important;
+    z-index:80 !important;
+}
+
+#slideshow img.active {
+    z-index:100 !important;
+}
+
+#slideshow img.last-active {
+    z-index:90 !important;
+
+}
+
+.fopics {
+    float: left;
+}
+
+
+
+.abouter {
+    padding-top: 20px;
+}
+.abouter h2 {
+    font-size: 86px;
+}
+.abouter p {
+    width: 460px;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.main-slider {
+    min-height: 300px;
+}
+
+/*------------------------------------------ end-slider ---------------------------------------------*/
+
+
+/*------------------------------------------ home-bottom ---------------------------------------------*/
+
+.home-bottom {
+    height:auto;
+
+}
+
+.third {
+    width: 310px;
+    margin-left: 15px;
+}
+
+.two-third {
+    width: 635px;
+    margin-left: 15px;
+}
+
+.full-width {
+    width: 960px;
+}
+
+.half {
+    width:472px;
+    margin-left: 15px;
+}
+
+.quarter {
+    width: 230px;
+    margin-left: 10px;
+}
+
+.third, .two-third, .full-width, .half {
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.pager .third, .pager .two-third, .pager .full-width, .pager .half {
+    padding-bottom: 20px;
+}
+
+.home-bottom .third, .home-bottom .two-third, .home-bottom .full-width, .home-bottom .half {
+    min-height: 177px;
+    
+    
+    
+    /*padding-bottom: 50px;*/
+   
+}
+
+.title-hold {
+    min-height: 34px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.border1 {
+    background: url(/images/papa/border1.png) repeat-x right top;
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: block;
+}
+
+.home-bottom .btn1{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+
+
+
+/*------------------------------------------ end-home-bottom -----------------------------------------*/
+
+
+
+
+/*------------------------------------------ form style --------------------------------------*/
+
+
+	label {
+		
+    	width: 90px;
+    	float: right;
+    	line-height: 27px;
+    	
+    	
+    	
+    	
+    	clear: both;    
+   }
+   
+   #myform input , #myform1 input , #myform2 input , #myform3 input , #myform4 input {
+   	
+   		height : 19px; 
+   		
+   		
+   		 
+   }
+   
+   #myform textarea , #myform2 textarea , #myform3 textarea , #myform4 textarea {
+   		height: 35px;
+   }
+   
+   #myform input.submit , #myform2 input.submit , #myform3 input.submit , #myform4 input.submit {
+
+ 	background: #3D210C url(/images/papa/gradi.png) repeat-x center top;
+    font-family: inherit !important;
+    font-size: 14px;
+    font-weight: bold;
+    float: right;
+    color: #fff;
+    border-radius: 4px;
+    padding: 4px 15px 0px;
+    cursor: pointer;
+    text-align: center !important;
+    //position:absolute;
+    //top: 0px;
+    width: 86px;
+    padding: 0px !important;
+    height: 26px;
+    left: 0px;
+    //width: 92px;
+    //height: 30px;
+    //left: -3px !important;
+
+   		
+   }
+   
+   
+   #myform input , #myform textarea , #myform2 input , #myform2 textarea  , #myform3 input , #myform3 textarea , #myform4 input , #myform4 textarea   {
+   	
+
+		border: 1px solid #333333;
+		margin-bottom: 4px;
+		width: 205px;
+		padding-right: 2px;
+		
+		
+		
+		
+   		
+   	
+   }
+   
+
+
+/*------------------------------------------ end form style --------------------------------------*/
+
+
+
+
+
+
+.call-toaction-line {
+    background: #31B01D url(/images/papa/gradi.png) repeat-x center top;
+    color: #fff;
+    font-size: 28px;
+    text-align: center;
+    height: 42px;
+    width: 960px;
+    margin-bottom: 20px;
+}
+
+
+.btn1 {
+    height: 22px;
+    padding: 4px 14px 0;
+    background: #2e53a1 url(/images/papa/gradi.png) repeat-x center top;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    float: left;
+    /*margin-top: 10px;*/
+}
+
+.btn1:hover {
+    background: #3660b9;
+}
+
+.input-line {
+    height: 35px;
+    width: 310px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.input-name {
+    width: 70px;
+    float: right;
+    line-height: 27px;
+}
+.input-pic {
+    background: url(/images/papa/input.png) no-repeat right top;
+    height:24px;
+    width: 240px;
+    float: right;
+}
+.input-pic input {
+    padding: 4px 4px 0px;
+    height: 20px;
+    width:232px;
+    background: none;
+    font-size: 12px;
+}
+
+.input-btn {
+    background: #000 url(/images/papa/gradi.png) repeat-x center top;
+    font-family: inherit !important;
+    font-size: 14px;
+    font-weight: bold;
+    float: right;
+    color: #fff;
+    border-radius: 4px;
+    padding: 4px 15px 0px;
+    cursor: pointer;
+    text-align: center !important;
+    position:absolute;
+    top: 0px;
+    width: 86px;
+    padding: 0px !important;
+    height: 26px;
+    left: 0px;
+    //width: 92px;
+    //height: 30px;
+    //left: -3px !important;
+}
+
+.input-btn:hover {
+    background: #000;
+}
+
+.DD_roundies_sizeFinder {
+    right: 0px;
+}
+
+/*------------------------------------------ page -----------------------------------------*/
+
+.sidebar{
+    width: 310px;
+}
+
+
+.sidebar h3 { 
+	
+	
+    background: url(/images/papa/border1.png) repeat-x right 24px ;
+    width: 100%;    
+    height:40px;
+    
+    
+    
+    
+    /*height: 3px;
+    
+    position: absolute;
+    bottom: 0;
+    display: block;
+	*/
+	
+}
+
+.page {
+    width: 635px;
+}
+
+
+.pager .title-hold h2 {
+    line-height: 30px;
+}
+
+.contact-former .input-name {
+    clear: left;
+    width: 100%
+}
+.contact-former .input-pic {
+    clear: right;
+    background: url(/images/papa/input2.png) no-repeat right top;
+    width: 230px;
+}
+.contact-former .input-line{
+    height: 54px;
+    width: 230px;
+}
+
+.contact-former .input-pic input {
+    width: 222px;
+}
+
+.contact-former .input-line.text-block {
+    height: 180px;
+}
+
+.contact-former .input-line.text-block .input-pic {
+    background: url(/images/papa/textarea.png) no-repeat right top;
+    height: 134px;
+}
+
+.contact-former .input-line.text-block textarea {
+    height: 126px;
+    width: 222px;
+    padding: 4px 4px 4px;
+    background: none;
+    border: none;
+}
+.contact-former-line {
+    padding: 15px 0px 30px;
+    overflow: hidden;
+}
+.contact-former-line .input-pic {
+    float: right;
+    background: url(/images/papa/input2.png) no-repeat right top;
+    width: 230px;
+    margin-top: 1px;
+    //margin-top: 2px;
+}
+
+.contact-former-line .input-line{
+    height: 54px;
+    width: 275px;
+    float: right;
+    margin-left: 16px;
+}
+
+.contact-former-line .input-name {
+    width: 45px;
+    /*line-height: 25px;*/
+}
+.contact-former-line .btn-line {
+    width: 86px;
+}
+
+img.right {
+    margin: 5px 0px 5px 20px;
+}
+img.left {
+    margin: 5px 20px 5px 0px;
+}
+
+.gallery-holder {
+    position: relative;
+    padding-bottom: 24px;
+    width: 960px;
+    height: 500px;
+}
+
+.gallery-cover {
+    margin-bottom: 8px;
+}
+
+
+
+
+
+ul.gallery
+{
+	width: 960px;
+	margin: 0;
+	padding: 0;
+}
+ul.gallery LI
+{
+	/*
+	width: 130px;
+	height: 130px;
+	*/
+	float: right;
+	display: inline;
+	/*background: url(../images/framesgal.png) no-repeat;*/
+	text-align: center;
+	font-weight: bold;
+	padding: 8px 0 0 1px;
+	margin: 10px 0 0 11px;
+}
+ul.gallery LI IMG
+{
+	margin: 0 0 10px;
+}
+ul.gallery LI A:hover
+{
+	text-decoration: none;
+}
+
+
+/*------------------------------------------ end page -------------------------------------*/
+
+
+/*------------------------------------------ articles -------------------------------------*/
+
+.article-demo {
+    height: 125px;
+    position: relative;
+    border-bottom: 1px solid #c0c2c2;
+    padding: 10px 0px 15px;
+    margin-top: 10px;
+}
+
+.article-img {
+    width: 230px;
+    height: 125px;
+    overflow: hidden;
+    margin-left: 20px;
+}
+.article-short {
+    position: relative;
+    height: 125px;
+    width: 385px;
+}
+.article-short .btn1{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    float: none !important;
+}
+
+.arti-title {
+    margin-bottom: 8px;
+}
+/*------------------------------------------ end articles ---------------------------------*/
+/*------------------------------------------ face-book -----------------------------------------*/
+
+.face-page {
+    width: 790px;
+    padding: 10px;
+    margin: 0 auto; 
+    background: #e6e6e6;
+    min-height: 400px;
+}
+
+.face-pic {
+    /*width: 500px;*/
+    margin-bottom: 10px;
+}
+
+.face-content {
+    overflow: hidden;
+}
+
+.face-half {
+    width: 240px;
+    margin-left: 20px;
+}
+
+.face-half .input-name {
+    width: 50px;
+}
+.face-half .input-pic {
+    width: 190px;
+    background: url(/images/papa/input3.png) no-repeat right top;
+}
+
+.face-half .input-pic input {
+    width: 182px;
+}
+
+.face-half .input-line {
+    width: 240px;
+}
+.face-page .full .input-name {
+    width: 50px;
+    float: none;
+    clear: both;
+    display: block;
+}
+.face-page .full .input-pic {
+    width: 160px;
+    background: url(/images/papa/input5.png) no-repeat right top;
+}
+
+.face-page .full .input-pic input {
+    width: 152px;
+}
+
+.face-page .full .input-line {
+    width: 240px;
+    height: 51px;
+    float: right;
+    margin-left: 10px;
+    width: 160px;
+}
+
+.face-page .full .if-full {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.face-action {
+    background: #55cb21 url(/images/papa/face-action.png) repeat-x center top;
+    text-align: center;
+    height: 46px;
+    padding-top: 10px;
+    font-size: 26px;
+    color: #fff;
+    text-shadow: 0px -1px #545c57;
+    margin: 10px 0px 0px;
+}
+
+
+/*------------------------------------------ face-book end -------------------------------------*/
+
+
+

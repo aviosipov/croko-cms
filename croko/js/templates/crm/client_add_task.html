@@ -1,0 +1,43 @@
+		
+		
+	    <div class="contaline">
+		<span class="contaname bn">שם:</span>
+		<div class="contaput">
+		    <input  id="new_task_title" type="text" name="title" required="required" value="${title}" />
+		</div>
+	    </div>
+	    
+	    <div class="contaline">
+		<span class="contaname bn">תיאור:</span>													
+			<textarea id="txt_notes2" class="textarea-200" name="description">${description}</textarea>						    						
+	    </div>
+	    
+	    
+	    <div class="contaline">
+		<span class="contaname bn">דד ליין:</span>
+		<div class="contaput">
+		    <input id="new_task_deadline" type="text" name="date" value="${deadline}">
+		</div>
+	    </div>
+	    
+	    <div class="contaline">
+		<span class="contaname bn">בטיפול:</span>
+		<div class="">
+			
+		    <select name="user_id">
+		    	
+		    	
+		    	<option value="1">test1</option>
+		    	<option value="2">test2</option>
+    	
+
+		    </select>
+		</div>
+	    </div>
+	    
+	    <div class="contaline fuin">
+		<span class="dibl"></span>
+	    <input onclick="savetask();" type="submit" value="הוסף משימה" class="left dib"/>
+	    </div>
+	    
+	

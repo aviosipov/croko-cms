@@ -1,0 +1,31 @@
+.ui-tabs-hide { 
+	display: none;	
+}
+
+.tabnav  {
+	border-bottom: white 1px solid;
+	margin: 8px 0px 10px 0px;
+	padding-bottom: 3px;
+	padding-right: 2px;
+}
+
+.tabnav li {
+	display: inline;
+	list-style: none;
+	padding-left: 3px;	
+}
+
+.tabnav li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #0D7073;
+	padding: 3px 8px 3px 8px;	
+	outline: none;
+	background: #ebebeb;
+}
+
+.tabnav li a:hover, .tabnav li a:active, .tabnav li.ui-tabs-selected a {
+	background: #797d80;
+	color: #ffffff;
+	text-decoration: none;
+}

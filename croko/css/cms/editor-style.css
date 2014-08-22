@@ -1,0 +1,57 @@
+.contaline {
+    clear: both;
+    display: block;
+    margin-top: 6px;
+    overflow: hidden;
+}
+
+.contaline textarea  {
+	
+	border: 1px gray solid ; 
+	width: 320px;
+	height: 60px;
+ 
+}
+
+
+.contaname {
+    background: url(images/contact1.png) no-repeat right 8px;
+    width: 43px;
+    height: 30px;
+    float: right;
+}
+
+.mail {
+    background-position: right -26px;
+}
+
+.contaput {
+    background: url(images/contaput.png) no-repeat right top;
+    width: 197px;
+    height: 22px;
+    float: right;
+    padding: 1px 0;
+}
+.contaput input {
+    width: 175px;
+    padding: 4px 10px 0;
+    background: none;
+    border: none;
+}
+
+.sender {
+    background: url(images/send.png) no-repeat right top;
+    height: 26px;
+    width: 87px;
+    border: none;
+    cursor: pointer;
+    float: left;
+}
+
+.sender:hover {
+    background-position: right bottom;
+}
+
+
+
+

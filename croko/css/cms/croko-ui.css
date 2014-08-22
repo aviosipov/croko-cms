@@ -1,0 +1,51 @@
+.croko-contact-form {
+	clear: both; 
+	padding-top: 20px;
+}
+
+
+.croko-contact-form label  {
+		
+	width: 105px;	
+	float: right;
+
+}
+
+
+.croko-contact-form label.error { 
+	
+	float: none; 
+	color: red; padding-right: .5em; 
+	vertical-align: top; 
+}
+
+
+.croko-contact-form input,select {
+	
+
+	border: 1px solid #333333;
+	margin-bottom: 10px;
+	width: 225px;
+	padding-right: 2px;
+	
+}
+
+.croko-contact-form textarea {
+	
+	border: 1px solid #333333;
+	margin-bottom: 10px;
+	width: 225px;
+	height: 50px;
+	padding-right: 2px;
+	
+}
+
+.croko-contact-form .submit {
+	height: 25px;
+	width: 235px;
+}
+
+.croko-contact-form .antispam {
+    display: none;
+}
+

@@ -1,0 +1,490 @@
+[12-Apr-2013 23:01:32 UTC] PHP Parse error:  syntax error, unexpected $end in /home/getcontr/public_html/beta/application/views/crm/clients/show.php on line 207
+[12-Apr-2013 23:21:07 UTC] PHP Fatal error:  Cannot redeclare load_class() (previously declared in /home/getcontr/public_html/beta/application/third_party/datamapper/bootstrap.php:30) in /home/getcontr/public_html/beta/system/core/Common.php on line 168
+[12-Apr-2013 23:21:08 UTC] PHP Fatal error:  Cannot redeclare load_class() (previously declared in /home/getcontr/public_html/beta/application/third_party/datamapper/bootstrap.php:30) in /home/getcontr/public_html/beta/system/core/Common.php on line 168
+[12-Apr-2013 23:21:22 UTC] PHP Fatal error:  Cannot redeclare load_class() (previously declared in /home/getcontr/public_html/beta/application/third_party/datamapper/bootstrap.php:30) in /home/getcontr/public_html/beta/system/core/Common.php on line 168
+[12-Apr-2013 23:21:22 UTC] PHP Fatal error:  Cannot redeclare load_class() (previously declared in /home/getcontr/public_html/beta/application/third_party/datamapper/bootstrap.php:30) in /home/getcontr/public_html/beta/system/core/Common.php on line 168
+[12-Apr-2013 23:22:31 UTC] PHP Fatal error:  Cannot redeclare load_class() (previously declared in /home/getcontr/public_html/beta/application/third_party/datamapper/bootstrap.php:30) in /home/getcontr/public_html/beta/system/core/Common.php on line 168
+[12-Apr-2013 23:22:32 UTC] PHP Fatal error:  Cannot redeclare load_class() (previously declared in /home/getcontr/public_html/beta/application/third_party/datamapper/bootstrap.php:30) in /home/getcontr/public_html/beta/system/core/Common.php on line 168
+[12-Apr-2013 23:22:36 UTC] PHP Fatal error:  Cannot redeclare load_class() (previously declared in /home/getcontr/public_html/beta/application/third_party/datamapper/bootstrap.php:30) in /home/getcontr/public_html/beta/system/core/Common.php on line 168
+[12-Apr-2013 23:22:36 UTC] PHP Fatal error:  Cannot redeclare load_class() (previously declared in /home/getcontr/public_html/beta/application/third_party/datamapper/bootstrap.php:30) in /home/getcontr/public_html/beta/system/core/Common.php on line 168
+[12-Apr-2013 23:23:19 UTC] PHP Fatal error:  Cannot redeclare load_class() (previously declared in /home/getcontr/public_html/beta/application/third_party/datamapper/bootstrap.php:30) in /home/getcontr/public_html/beta/system/core/Common.php on line 168
+[12-Apr-2013 23:23:19 UTC] PHP Fatal error:  Cannot redeclare load_class() (previously declared in /home/getcontr/public_html/beta/application/third_party/datamapper/bootstrap.php:30) in /home/getcontr/public_html/beta/system/core/Common.php on line 168
+[12-Apr-2013 23:23:22 UTC] PHP Fatal error:  Cannot redeclare load_class() (previously declared in /home/getcontr/public_html/beta/application/third_party/datamapper/bootstrap.php:30) in /home/getcontr/public_html/beta/system/core/Common.php on line 168
+[12-Apr-2013 23:23:22 UTC] PHP Fatal error:  Cannot redeclare load_class() (previously declared in /home/getcontr/public_html/beta/application/third_party/datamapper/bootstrap.php:30) in /home/getcontr/public_html/beta/system/core/Common.php on line 168
+[12-Apr-2013 23:34:09 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/views/crm/clients/add.php on line 31
+[12-Apr-2013 23:36:36 UTC] PHP Fatal error:  Class 'DMCustomModsuleFields' not found in /home/getcontr/public_html/beta/application/controllers/clients.php on line 74
+[12-Apr-2013 23:40:13 UTC] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home/getcontr/public_html/beta/application/controllers/clients.php on line 75
+[13-Apr-2013 00:35:43 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/getcontr/public_html/beta/application/controllers/clients.php on line 107
+[13-Apr-2013 00:47:18 UTC] PHP Fatal error:  Call to undefined function find() in /home/getcontr/public_html/beta/application/controllers/clients.php on line 129
+[13-Apr-2013 11:01:46 UTC] PHP Parse error:  syntax error, unexpected $end, expecting ')' in /home/getcontr/public_html/beta/application/controllers/clients.php on line 314
+[13-Apr-2013 11:13:48 UTC] PHP Fatal error:  Call to undefined method MongoCollection::find_one() in /home/getcontr/public_html/beta/application/controllers/clients.php on line 246
+[13-Apr-2013 11:14:47 UTC] PHP Parse error:  syntax error, unexpected $end in /home/getcontr/public_html/beta/application/controllers/clients.php on line 241
+[16-Apr-2013 13:48:57 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/views/crm/callcenter/calllog.php on line 3
+[16-Apr-2013 13:49:08 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/views/crm/callcenter/calllog.php on line 3
+[16-Apr-2013 13:49:42 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/views/crm/callcenter/calllog.php on line 3
+[16-Apr-2013 13:50:05 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/getcontr/public_html/beta/application/views/crm/callcenter/calllog.php on line 120
+[16-Apr-2013 13:51:47 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/views/crm/callcenter/calllog.php on line 3
+[16-Apr-2013 13:51:51 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/views/crm/callcenter/calllog.php on line 3
+[16-Apr-2013 13:52:15 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/getcontr/public_html/beta/application/views/crm/callcenter/calllog.php on line 119
+[16-Apr-2013 13:52:55 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/getcontr/public_html/beta/application/views/crm/callcenter/calllog.php on line 51
+[16-Apr-2013 14:02:25 UTC] PHP Fatal error:  Call to a member function sum_earnings_by_month() on a non-object in /home/getcontr/public_html/beta/application/views/template/crm-status-box.php on line 4
+[16-Apr-2013 14:03:30 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/views/crm/callcenter/calllog.php on line 70
+[16-Apr-2013 14:04:18 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/views/crm/callcenter/calllog.php on line 70
+[16-Apr-2013 14:13:52 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/views/crm/callcenter/calllog.php on line 50
+[16-Apr-2013 14:13:54 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/views/crm/callcenter/calllog.php on line 50
+[16-Apr-2013 14:14:28 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/views/crm/callcenter/calllog.php on line 50
+[16-Apr-2013 20:53:48 UTC] PHP Fatal error:  Cannot use object of type Services_Twilio_Rest_Calls as array in /home/getcontr/public_html/beta/application/controllers/callcenter.php on line 60
+[16-Apr-2013 20:54:24 UTC] PHP Fatal error:  Cannot use object of type Services_Twilio_Rest_Calls as array in /home/getcontr/public_html/beta/application/controllers/callcenter.php on line 60
+[16-Apr-2013 20:55:25 UTC] PHP Parse error:  syntax error, unexpected $end, expecting ']' in /home/getcontr/public_html/beta/application/controllers/callcenter.php on line 245
+[16-Apr-2013 20:55:31 UTC] PHP Fatal error:  Cannot use object of type Services_Twilio_Rest_Calls as array in /home/getcontr/public_html/beta/application/controllers/callcenter.php on line 60
+[16-Apr-2013 20:55:40 UTC] PHP Fatal error:  Cannot use object of type Services_Twilio_Rest_Calls as array in /home/getcontr/public_html/beta/application/controllers/callcenter.php on line 59
+[16-Apr-2013 21:04:39 UTC] PHP Fatal error:  Cannot access empty property in /home/getcontr/public_html/beta/application/views/crm/callcenter/calllog.php on line 24
+[16-Apr-2013 21:14:56 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/getcontr/public_html/beta/application/controllers/callcenter.php on line 67
+[16-Apr-2013 21:25:52 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/getcontr/public_html/beta/application/controllers/callcenter.php on line 69
+[16-Apr-2013 21:25:53 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/getcontr/public_html/beta/application/controllers/callcenter.php on line 69
+[16-Apr-2013 21:26:23 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/getcontr/public_html/beta/application/controllers/callcenter.php on line 69
+[16-Apr-2013 21:26:24 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/getcontr/public_html/beta/application/controllers/callcenter.php on line 69
+[16-Apr-2013 21:26:28 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/getcontr/public_html/beta/application/controllers/callcenter.php on line 69
+[16-Apr-2013 22:02:46 UTC] PHP Parse error:  syntax error, unexpected T_CATCH in /home/getcontr/public_html/beta/application/controllers/callcenter.php on line 195
+[17-Apr-2013 16:50:46 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'Authenticate' in /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio.php:215
+Stack trace:
+#0 /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio.php(134): Services_Twilio->_processResponse(Array)
+#1 /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio.php(153): Services_Twilio->_makeIdempotentRequest(Array, '/2010-04-01/Acc...', 1)
+#2 /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio/ListResource.php(116): Services_Twilio->retrieveData('/2010-04-01/Acc...', Array)
+#3 /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio/ListResource.php(183): Services_Twilio_ListResource->getPage(0, 50, Array, NULL)
+#4 [internal function]: Services_Twilio_ListResource->getPageGenerator(0, 50, Array, NULL)
+#5 /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio/AutoPagingIterator.php(103): call_user_func_array(Array,  in /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio.php on line 215
+[17-Apr-2013 18:30:38 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[17-Apr-2013 18:30:39 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[17-Apr-2013 18:49:16 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/getcontr/public_html/beta/application/models/log.php on line 78
+[17-Apr-2013 19:02:49 UTC] PHP Fatal error:  Call to a member function to_email() on a non-object in /home/getcontr/public_html/beta/application/controllers/admin.php on line 153
+[17-Apr-2013 19:02:52 UTC] PHP Fatal error:  Call to a member function to_email() on a non-object in /home/getcontr/public_html/beta/application/controllers/admin.php on line 153
+[17-Apr-2013 19:04:12 UTC] PHP Fatal error:  Call to a member function to_email() on a non-object in /home/getcontr/public_html/beta/application/controllers/admin.php on line 158
+[17-Apr-2013 19:04:18 UTC] PHP Fatal error:  Call to a member function to_email() on a non-object in /home/getcontr/public_html/beta/application/controllers/admin.php on line 158
+[17-Apr-2013 19:06:54 UTC] PHP Fatal error:  Call to a member function to_email() on a non-object in /home/getcontr/public_html/beta/application/controllers/admin.php on line 161
+[17-Apr-2013 19:07:07 UTC] PHP Fatal error:  Call to a member function to_email() on a non-object in /home/getcontr/public_html/beta/application/controllers/admin.php on line 161
+[17-Apr-2013 19:07:38 UTC] PHP Fatal error:  Call to a member function to_email() on a non-object in /home/getcontr/public_html/beta/application/controllers/admin.php on line 161
+[18-Apr-2013 17:02:47 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'Authenticate' in /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio.php:215
+Stack trace:
+#0 /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio.php(134): Services_Twilio->_processResponse(Array)
+#1 /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio.php(153): Services_Twilio->_makeIdempotentRequest(Array, '/2010-04-01/Acc...', 1)
+#2 /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio/ListResource.php(116): Services_Twilio->retrieveData('/2010-04-01/Acc...', Array)
+#3 /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio/ListResource.php(183): Services_Twilio_ListResource->getPage(0, 50, Array, NULL)
+#4 [internal function]: Services_Twilio_ListResource->getPageGenerator(0, 50, Array, NULL)
+#5 /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio/AutoPagingIterator.php(103): call_user_func_array(Array,  in /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio.php on line 215
+[18-Apr-2013 17:02:57 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'Authenticate' in /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio.php:215
+Stack trace:
+#0 /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio.php(134): Services_Twilio->_processResponse(Array)
+#1 /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio.php(153): Services_Twilio->_makeIdempotentRequest(Array, '/2010-04-01/Acc...', 1)
+#2 /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio/ListResource.php(116): Services_Twilio->retrieveData('/2010-04-01/Acc...', Array)
+#3 /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio/ListResource.php(183): Services_Twilio_ListResource->getPage(0, 50, Array, NULL)
+#4 [internal function]: Services_Twilio_ListResource->getPageGenerator(0, 50, Array, NULL)
+#5 /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio/AutoPagingIterator.php(103): call_user_func_array(Array,  in /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio.php on line 215
+[18-Apr-2013 17:03:03 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'Authenticate' in /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio.php:215
+Stack trace:
+#0 /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio.php(134): Services_Twilio->_processResponse(Array)
+#1 /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio.php(153): Services_Twilio->_makeIdempotentRequest(Array, '/2010-04-01/Acc...', 1)
+#2 /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio/ListResource.php(116): Services_Twilio->retrieveData('/2010-04-01/Acc...', Array)
+#3 /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio/ListResource.php(183): Services_Twilio_ListResource->getPage(0, 50, Array, NULL)
+#4 [internal function]: Services_Twilio_ListResource->getPageGenerator(0, 50, Array, NULL)
+#5 /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio/AutoPagingIterator.php(103): call_user_func_array(Array,  in /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio.php on line 215
+[20-Apr-2013 10:17:15 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[20-Apr-2013 22:47:22 UTC] PHP Parse error:  syntax error, unexpected $end in /home/getcontr/public_html/beta/application/controllers/admin.php on line 244
+[21-Apr-2013 00:48:11 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'Authenticate' in /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio.php:215
+Stack trace:
+#0 /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio.php(134): Services_Twilio->_processResponse(Array)
+#1 /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio.php(153): Services_Twilio->_makeIdempotentRequest(Array, '/2010-04-01/Acc...', 1)
+#2 /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio/ListResource.php(116): Services_Twilio->retrieveData('/2010-04-01/Acc...', Array)
+#3 /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio/ListResource.php(183): Services_Twilio_ListResource->getPage(0, 50, Array, NULL)
+#4 [internal function]: Services_Twilio_ListResource->getPageGenerator(0, 50, Array, NULL)
+#5 /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio/AutoPagingIterator.php(103): call_user_func_array(Array,  in /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio.php on line 215
+[21-Apr-2013 06:02:40 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[21-Apr-2013 10:20:31 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[21-Apr-2013 11:29:34 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[21-Apr-2013 11:29:35 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[21-Apr-2013 11:45:18 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[21-Apr-2013 11:45:19 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[21-Apr-2013 11:54:04 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[21-Apr-2013 12:47:44 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[21-Apr-2013 15:45:55 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[21-Apr-2013 15:45:56 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[21-Apr-2013 22:03:00 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[22-Apr-2013 05:38:23 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[22-Apr-2013 09:13:12 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[22-Apr-2013 09:33:16 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[22-Apr-2013 09:33:18 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[22-Apr-2013 12:18:46 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[22-Apr-2013 14:02:41 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'On the state "insert" you must have post data' in /home/getcontr/public_html/beta/application/libraries/grocery_crud.php:2469
+Stack trace:
+#0 /home/getcontr/public_html/beta/application/libraries/grocery_crud.php(3333): grocery_CRUD_States->getStateInfo()
+#1 /home/getcontr/public_html/beta/application/controllers/admin.php(242): grocery_CRUD->render()
+#2 [internal function]: Admin->user_module_rules('clients', '3719', 'insert')
+#3 /home/getcontr/public_html/beta/system/core/CodeIgniter.php(297): call_user_func_array(Array, Array)
+#4 /home/getcontr/public_html/beta/loader.php(176): require_once('/home/getcontr/...')
+#5 {main}
+  thrown in /home/getcontr/public_html/beta/application/libraries/grocery_crud.php on line 2469
+[22-Apr-2013 15:24:20 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[22-Apr-2013 15:49:54 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[23-Apr-2013 05:46:39 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[24-Apr-2013 11:14:36 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[25-Apr-2013 06:47:00 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[25-Apr-2013 12:44:28 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[25-Apr-2013 13:14:11 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[25-Apr-2013 14:07:26 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[28-Apr-2013 07:52:21 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[28-Apr-2013 11:49:53 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[28-Apr-2013 11:49:54 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[28-Apr-2013 17:35:07 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[29-Apr-2013 06:40:05 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[29-Apr-2013 07:26:20 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[29-Apr-2013 07:26:28 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[29-Apr-2013 07:56:27 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[29-Apr-2013 13:19:02 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[29-Apr-2013 13:20:24 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[29-Apr-2013 13:52:28 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[30-Apr-2013 10:43:29 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[30-Apr-2013 12:14:48 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[30-Apr-2013 12:15:00 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[30-Apr-2013 13:42:47 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[30-Apr-2013 14:16:49 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[01-May-2013 09:14:57 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[01-May-2013 10:43:52 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[01-May-2013 10:48:15 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[01-May-2013 15:32:12 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[01-May-2013 21:20:32 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[01-May-2013 21:21:06 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'Authenticate' in /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio.php:215
+Stack trace:
+#0 /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio.php(134): Services_Twilio->_processResponse(Array)
+#1 /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio.php(153): Services_Twilio->_makeIdempotentRequest(Array, '/2010-04-01/Acc...', 1)
+#2 /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio/ListResource.php(116): Services_Twilio->retrieveData('/2010-04-01/Acc...', Array)
+#3 /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio/ListResource.php(183): Services_Twilio_ListResource->getPage(0, 50, Array, NULL)
+#4 [internal function]: Services_Twilio_ListResource->getPageGenerator(0, 50, Array, NULL)
+#5 /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio/AutoPagingIterator.php(103): call_user_func_array(Array,  in /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio.php on line 215
+[02-May-2013 09:03:09 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[02-May-2013 12:37:00 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[02-May-2013 13:16:03 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[03-May-2013 13:19:14 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[03-May-2013 13:19:17 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[06-May-2013 09:50:40 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[06-May-2013 12:00:50 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[06-May-2013 12:04:11 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[06-May-2013 15:51:16 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[07-May-2013 07:11:15 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[07-May-2013 17:24:22 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[08-May-2013 07:54:02 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[09-May-2013 06:44:51 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[09-May-2013 07:18:41 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[09-May-2013 12:34:52 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[09-May-2013 13:03:20 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[09-May-2013 17:54:57 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[09-May-2013 18:03:23 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[09-May-2013 22:13:39 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[11-May-2013 21:10:07 UTC] PHP Parse error:  syntax error, unexpected $end, expecting ')' in /home/getcontr/public_html/beta/application/models/client.php on line 523
+[11-May-2013 21:17:57 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/getcontr/public_html/beta/application/controllers/clients.php on line 121
+[11-May-2013 21:18:03 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/getcontr/public_html/beta/application/controllers/clients.php on line 121
+[12-May-2013 08:26:14 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[12-May-2013 09:54:09 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[12-May-2013 10:37:11 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[12-May-2013 13:22:48 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[12-May-2013 14:37:20 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[12-May-2013 14:46:04 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[12-May-2013 14:46:05 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[12-May-2013 23:18:24 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[12-May-2013 23:48:24 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[13-May-2013 09:01:40 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[13-May-2013 12:02:51 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[13-May-2013 16:00:31 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[13-May-2013 16:00:41 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[14-May-2013 00:54:00 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[14-May-2013 21:19:16 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[16-May-2013 00:14:10 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[16-May-2013 07:21:18 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[16-May-2013 18:38:14 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[19-May-2013 08:25:10 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[19-May-2013 09:15:39 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[19-May-2013 09:55:27 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'Authenticate' in /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio.php:215
+Stack trace:
+#0 /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio.php(134): Services_Twilio->_processResponse(Array)
+#1 /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio.php(153): Services_Twilio->_makeIdempotentRequest(Array, '/2010-04-01/Acc...', 1)
+#2 /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio/ListResource.php(116): Services_Twilio->retrieveData('/2010-04-01/Acc...', Array)
+#3 /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio/ListResource.php(183): Services_Twilio_ListResource->getPage(0, 50, Array, NULL)
+#4 [internal function]: Services_Twilio_ListResource->getPageGenerator(0, 50, Array, NULL)
+#5 /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio/AutoPagingIterator.php(103): call_user_func_array(Array,  in /home/getcontr/public_html/beta/application/libraries/twilio/Services/Twilio.php on line 215
+[19-May-2013 10:21:36 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[19-May-2013 10:40:39 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[19-May-2013 11:16:29 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[19-May-2013 12:10:58 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[19-May-2013 12:37:52 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[19-May-2013 12:51:48 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[20-May-2013 07:57:51 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[20-May-2013 12:41:28 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[20-May-2013 14:40:51 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[21-May-2013 07:59:01 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[21-May-2013 10:08:09 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[21-May-2013 21:30:04 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[23-May-2013 15:58:06 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[26-May-2013 00:18:48 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[26-May-2013 00:19:04 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[26-May-2013 07:56:25 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[26-May-2013 08:04:16 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[26-May-2013 08:53:33 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[26-May-2013 11:07:46 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[26-May-2013 15:12:55 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[27-May-2013 06:45:34 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[27-May-2013 08:00:31 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[27-May-2013 08:17:20 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[27-May-2013 14:55:50 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[27-May-2013 16:05:14 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[27-May-2013 16:30:12 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[27-May-2013 22:31:23 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[28-May-2013 04:44:26 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'On the state "insert" you must have post data' in /home/getcontr/public_html/beta/application/libraries/grocery_crud.php:2469
+Stack trace:
+#0 /home/getcontr/public_html/beta/application/libraries/grocery_crud.php(3333): grocery_CRUD_States->getStateInfo()
+#1 /home/getcontr/public_html/beta/application/controllers/admin.php(242): grocery_CRUD->render()
+#2 [internal function]: Admin->user_module_rules('clients', '3865', 'insert')
+#3 /home/getcontr/public_html/beta/system/core/CodeIgniter.php(297): call_user_func_array(Array, Array)
+#4 /home/getcontr/public_html/beta/loader.php(176): require_once('/home/getcontr/...')
+#5 {main}
+  thrown in /home/getcontr/public_html/beta/application/libraries/grocery_crud.php on line 2469
+[28-May-2013 06:06:46 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[28-May-2013 07:29:14 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[28-May-2013 10:16:02 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[28-May-2013 15:57:37 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[29-May-2013 05:53:32 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[29-May-2013 07:08:09 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[29-May-2013 10:16:57 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[29-May-2013 13:49:18 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[29-May-2013 15:12:54 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[29-May-2013 19:38:52 UTC] PHP Fatal error:  Uncaught exception 'MongoConnectionException' with message 'Failed to connect to: localhost:27017: Transport endpoint is not connected' in /home/getcontr/public_html/beta/application/controllers/clients.php:550
+Stack trace:
+#0 /home/getcontr/public_html/beta/application/controllers/clients.php(550): MongoClient->__construct()
+#1 [internal function]: Clients->show('3879')
+#2 /home/getcontr/public_html/beta/system/core/CodeIgniter.php(297): call_user_func_array(Array, Array)
+#3 /home/getcontr/public_html/beta/loader.php(176): require_once('/home/getcontr/...')
+#4 {main}
+  thrown in /home/getcontr/public_html/beta/application/controllers/clients.php on line 550
+[29-May-2013 19:46:05 UTC] PHP Fatal error:  Uncaught exception 'MongoConnectionException' with message 'Failed to connect to: localhost:27017: Transport endpoint is not connected' in /home/getcontr/public_html/beta/application/controllers/clients.php:550
+Stack trace:
+#0 /home/getcontr/public_html/beta/application/controllers/clients.php(550): MongoClient->__construct()
+#1 [internal function]: Clients->show('3879')
+#2 /home/getcontr/public_html/beta/system/core/CodeIgniter.php(297): call_user_func_array(Array, Array)
+#3 /home/getcontr/public_html/beta/loader.php(176): require_once('/home/getcontr/...')
+#4 {main}
+  thrown in /home/getcontr/public_html/beta/application/controllers/clients.php on line 550
+[29-May-2013 19:53:47 UTC] PHP Fatal error:  Uncaught exception 'MongoConnectionException' with message 'Failed to connect to: localhost:27017: Transport endpoint is not connected' in /home/getcontr/public_html/beta/application/controllers/clients.php:550
+Stack trace:
+#0 /home/getcontr/public_html/beta/application/controllers/clients.php(550): MongoClient->__construct()
+#1 [internal function]: Clients->show('3879')
+#2 /home/getcontr/public_html/beta/system/core/CodeIgniter.php(297): call_user_func_array(Array, Array)
+#3 /home/getcontr/public_html/beta/loader.php(176): require_once('/home/getcontr/...')
+#4 {main}
+  thrown in /home/getcontr/public_html/beta/application/controllers/clients.php on line 550
+[29-May-2013 19:54:25 UTC] PHP Fatal error:  Uncaught exception 'MongoConnectionException' with message 'Failed to connect to: localhost:27017: Transport endpoint is not connected' in /home/getcontr/public_html/beta/application/controllers/clients.php:550
+Stack trace:
+#0 /home/getcontr/public_html/beta/application/controllers/clients.php(550): MongoClient->__construct()
+#1 [internal function]: Clients->show('3879')
+#2 /home/getcontr/public_html/beta/system/core/CodeIgniter.php(297): call_user_func_array(Array, Array)
+#3 /home/getcontr/public_html/beta/loader.php(176): require_once('/home/getcontr/...')
+#4 {main}
+  thrown in /home/getcontr/public_html/beta/application/controllers/clients.php on line 550
+[29-May-2013 19:54:31 UTC] PHP Fatal error:  Uncaught exception 'MongoConnectionException' with message 'Failed to connect to: localhost:27017: Transport endpoint is not connected' in /home/getcontr/public_html/beta/application/controllers/clients.php:550
+Stack trace:
+#0 /home/getcontr/public_html/beta/application/controllers/clients.php(550): MongoClient->__construct()
+#1 [internal function]: Clients->show('3731')
+#2 /home/getcontr/public_html/beta/system/core/CodeIgniter.php(297): call_user_func_array(Array, Array)
+#3 /home/getcontr/public_html/beta/loader.php(176): require_once('/home/getcontr/...')
+#4 {main}
+  thrown in /home/getcontr/public_html/beta/application/controllers/clients.php on line 550
+[29-May-2013 19:54:40 UTC] PHP Fatal error:  Uncaught exception 'MongoConnectionException' with message 'Failed to connect to: localhost:27017: Transport endpoint is not connected' in /home/getcontr/public_html/beta/application/controllers/clients.php:550
+Stack trace:
+#0 /home/getcontr/public_html/beta/application/controllers/clients.php(550): MongoClient->__construct()
+#1 [internal function]: Clients->show('2321')
+#2 /home/getcontr/public_html/beta/system/core/CodeIgniter.php(297): call_user_func_array(Array, Array)
+#3 /home/getcontr/public_html/beta/loader.php(176): require_once('/home/getcontr/...')
+#4 {main}
+  thrown in /home/getcontr/public_html/beta/application/controllers/clients.php on line 550
+[29-May-2013 20:03:10 UTC] PHP Fatal error:  Uncaught exception 'MongoConnectionException' with message 'Failed to connect to: localhost:27017: Transport endpoint is not connected' in /home/getcontr/public_html/beta/application/controllers/clients.php:550
+Stack trace:
+#0 /home/getcontr/public_html/beta/application/controllers/clients.php(550): MongoClient->__construct()
+#1 [internal function]: Clients->show('2321')
+#2 /home/getcontr/public_html/beta/system/core/CodeIgniter.php(297): call_user_func_array(Array, Array)
+#3 /home/getcontr/public_html/beta/loader.php(176): require_once('/home/getcontr/...')
+#4 {main}
+  thrown in /home/getcontr/public_html/beta/application/controllers/clients.php on line 550
+[30-May-2013 09:30:17 UTC] PHP Fatal error:  Uncaught exception 'MongoConnectionException' with message 'Failed to connect to: localhost:27017: Transport endpoint is not connected' in /home/getcontr/public_html/beta/application/controllers/clients.php:550
+Stack trace:
+#0 /home/getcontr/public_html/beta/application/controllers/clients.php(550): MongoClient->__construct()
+#1 [internal function]: Clients->show()
+#2 /home/getcontr/public_html/beta/system/core/CodeIgniter.php(297): call_user_func_array(Array, Array)
+#3 /home/getcontr/public_html/beta/loader.php(176): require_once('/home/getcontr/...')
+#4 {main}
+  thrown in /home/getcontr/public_html/beta/application/controllers/clients.php on line 550
+[30-May-2013 12:30:30 UTC] PHP Fatal error:  Uncaught exception 'MongoConnectionException' with message 'Failed to connect to: localhost:27017: Transport endpoint is not connected' in /home/getcontr/public_html/beta/application/controllers/clients.php:130
+Stack trace:
+#0 /home/getcontr/public_html/beta/application/controllers/clients.php(130): MongoClient->__construct()
+#1 [internal function]: Clients->add()
+#2 /home/getcontr/public_html/beta/system/core/CodeIgniter.php(297): call_user_func_array(Array, Array)
+#3 /home/getcontr/public_html/beta/loader.php(176): require_once('/home/getcontr/...')
+#4 {main}
+  thrown in /home/getcontr/public_html/beta/application/controllers/clients.php on line 130
+[30-May-2013 12:30:48 UTC] PHP Fatal error:  Uncaught exception 'MongoConnectionException' with message 'Failed to connect to: localhost:27017: Transport endpoint is not connected' in /home/getcontr/public_html/beta/application/controllers/clients.php:130
+Stack trace:
+#0 /home/getcontr/public_html/beta/application/controllers/clients.php(130): MongoClient->__construct()
+#1 [internal function]: Clients->add()
+#2 /home/getcontr/public_html/beta/system/core/CodeIgniter.php(297): call_user_func_array(Array, Array)
+#3 /home/getcontr/public_html/beta/loader.php(176): require_once('/home/getcontr/...')
+#4 {main}
+  thrown in /home/getcontr/public_html/beta/application/controllers/clients.php on line 130
+[30-May-2013 12:31:07 UTC] PHP Fatal error:  Uncaught exception 'MongoConnectionException' with message 'Failed to connect to: localhost:27017: Transport endpoint is not connected' in /home/getcontr/public_html/beta/application/controllers/clients.php:550
+Stack trace:
+#0 /home/getcontr/public_html/beta/application/controllers/clients.php(550): MongoClient->__construct()
+#1 [internal function]: Clients->show('3921')
+#2 /home/getcontr/public_html/beta/system/core/CodeIgniter.php(297): call_user_func_array(Array, Array)
+#3 /home/getcontr/public_html/beta/loader.php(176): require_once('/home/getcontr/...')
+#4 {main}
+  thrown in /home/getcontr/public_html/beta/application/controllers/clients.php on line 550
+[30-May-2013 12:31:22 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[30-May-2013 12:31:28 UTC] PHP Fatal error:  Uncaught exception 'MongoConnectionException' with message 'Failed to connect to: localhost:27017: Transport endpoint is not connected' in /home/getcontr/public_html/beta/application/controllers/clients.php:550
+Stack trace:
+#0 /home/getcontr/public_html/beta/application/controllers/clients.php(550): MongoClient->__construct()
+#1 [internal function]: Clients->show('3921')
+#2 /home/getcontr/public_html/beta/system/core/CodeIgniter.php(297): call_user_func_array(Array, Array)
+#3 /home/getcontr/public_html/beta/loader.php(176): require_once('/home/getcontr/...')
+#4 {main}
+  thrown in /home/getcontr/public_html/beta/application/controllers/clients.php on line 550
+[30-May-2013 12:31:32 UTC] PHP Fatal error:  Uncaught exception 'MongoConnectionException' with message 'Failed to connect to: localhost:27017: Transport endpoint is not connected' in /home/getcontr/public_html/beta/application/controllers/clients.php:550
+Stack trace:
+#0 /home/getcontr/public_html/beta/application/controllers/clients.php(550): MongoClient->__construct()
+#1 [internal function]: Clients->show('3921')
+#2 /home/getcontr/public_html/beta/system/core/CodeIgniter.php(297): call_user_func_array(Array, Array)
+#3 /home/getcontr/public_html/beta/loader.php(176): require_once('/home/getcontr/...')
+#4 {main}
+  thrown in /home/getcontr/public_html/beta/application/controllers/clients.php on line 550
+[30-May-2013 12:31:50 UTC] PHP Fatal error:  Uncaught exception 'MongoConnectionException' with message 'Failed to connect to: localhost:27017: Transport endpoint is not connected' in /home/getcontr/public_html/beta/application/controllers/clients.php:550
+Stack trace:
+#0 /home/getcontr/public_html/beta/application/controllers/clients.php(550): MongoClient->__construct()
+#1 [internal function]: Clients->show('3920')
+#2 /home/getcontr/public_html/beta/system/core/CodeIgniter.php(297): call_user_func_array(Array, Array)
+#3 /home/getcontr/public_html/beta/loader.php(176): require_once('/home/getcontr/...')
+#4 {main}
+  thrown in /home/getcontr/public_html/beta/application/controllers/clients.php on line 550
+[30-May-2013 12:38:45 UTC] PHP Fatal error:  Uncaught exception 'MongoConnectionException' with message 'Failed to connect to: localhost:27017: Transport endpoint is not connected' in /home/getcontr/public_html/beta/application/controllers/clients.php:550
+Stack trace:
+#0 /home/getcontr/public_html/beta/application/controllers/clients.php(550): MongoClient->__construct()
+#1 [internal function]: Clients->show('3920')
+#2 /home/getcontr/public_html/beta/system/core/CodeIgniter.php(297): call_user_func_array(Array, Array)
+#3 /home/getcontr/public_html/beta/loader.php(176): require_once('/home/getcontr/...')
+#4 {main}
+  thrown in /home/getcontr/public_html/beta/application/controllers/clients.php on line 550
+[30-May-2013 12:38:57 UTC] PHP Fatal error:  Uncaught exception 'MongoConnectionException' with message 'Failed to connect to: localhost:27017: Transport endpoint is not connected' in /home/getcontr/public_html/beta/application/controllers/clients.php:550
+Stack trace:
+#0 /home/getcontr/public_html/beta/application/controllers/clients.php(550): MongoClient->__construct()
+#1 [internal function]: Clients->show('3879')
+#2 /home/getcontr/public_html/beta/system/core/CodeIgniter.php(297): call_user_func_array(Array, Array)
+#3 /home/getcontr/public_html/beta/loader.php(176): require_once('/home/getcontr/...')
+#4 {main}
+  thrown in /home/getcontr/public_html/beta/application/controllers/clients.php on line 550
+[30-May-2013 12:47:31 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[30-May-2013 12:47:35 UTC] PHP Fatal error:  Uncaught exception 'MongoConnectionException' with message 'Failed to connect to: localhost:27017: Transport endpoint is not connected' in /home/getcontr/public_html/beta/application/controllers/clients.php:550
+Stack trace:
+#0 /home/getcontr/public_html/beta/application/controllers/clients.php(550): MongoClient->__construct()
+#1 [internal function]: Clients->show('3771')
+#2 /home/getcontr/public_html/beta/system/core/CodeIgniter.php(297): call_user_func_array(Array, Array)
+#3 /home/getcontr/public_html/beta/loader.php(176): require_once('/home/getcontr/...')
+#4 {main}
+  thrown in /home/getcontr/public_html/beta/application/controllers/clients.php on line 550
+[30-May-2013 14:40:00 UTC] PHP Fatal error:  Uncaught exception 'MongoConnectionException' with message 'Failed to connect to: localhost:27017: Transport endpoint is not connected' in /home/getcontr/public_html/beta/application/controllers/clients.php:550
+Stack trace:
+#0 /home/getcontr/public_html/beta/application/controllers/clients.php(550): MongoClient->__construct()
+#1 [internal function]: Clients->show('3897')
+#2 /home/getcontr/public_html/beta/system/core/CodeIgniter.php(297): call_user_func_array(Array, Array)
+#3 /home/getcontr/public_html/beta/loader.php(176): require_once('/home/getcontr/...')
+#4 {main}
+  thrown in /home/getcontr/public_html/beta/application/controllers/clients.php on line 550
+[30-May-2013 14:40:11 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[30-May-2013 14:40:14 UTC] PHP Fatal error:  Uncaught exception 'MongoConnectionException' with message 'Failed to connect to: localhost:27017: Transport endpoint is not connected' in /home/getcontr/public_html/beta/application/controllers/clients.php:550
+Stack trace:
+#0 /home/getcontr/public_html/beta/application/controllers/clients.php(550): MongoClient->__construct()
+#1 [internal function]: Clients->show('3919')
+#2 /home/getcontr/public_html/beta/system/core/CodeIgniter.php(297): call_user_func_array(Array, Array)
+#3 /home/getcontr/public_html/beta/loader.php(176): require_once('/home/getcontr/...')
+#4 {main}
+  thrown in /home/getcontr/public_html/beta/application/controllers/clients.php on line 550
+[30-May-2013 14:41:21 UTC] PHP Fatal error:  Uncaught exception 'MongoConnectionException' with message 'Failed to connect to: localhost:27017: Transport endpoint is not connected' in /home/getcontr/public_html/beta/application/controllers/clients.php:550
+Stack trace:
+#0 /home/getcontr/public_html/beta/application/controllers/clients.php(550): MongoClient->__construct()
+#1 [internal function]: Clients->show('3654')
+#2 /home/getcontr/public_html/beta/system/core/CodeIgniter.php(297): call_user_func_array(Array, Array)
+#3 /home/getcontr/public_html/beta/loader.php(176): require_once('/home/getcontr/...')
+#4 {main}
+  thrown in /home/getcontr/public_html/beta/application/controllers/clients.php on line 550
+[30-May-2013 15:34:02 UTC] PHP Fatal error:  Uncaught exception 'MongoConnectionException' with message 'Failed to connect to: localhost:27017: Transport endpoint is not connected' in /home/getcontr/public_html/beta/application/controllers/clients.php:550
+Stack trace:
+#0 /home/getcontr/public_html/beta/application/controllers/clients.php(550): MongoClient->__construct()
+#1 [internal function]: Clients->show('3654')
+#2 /home/getcontr/public_html/beta/system/core/CodeIgniter.php(297): call_user_func_array(Array, Array)
+#3 /home/getcontr/public_html/beta/loader.php(176): require_once('/home/getcontr/...')
+#4 {main}
+  thrown in /home/getcontr/public_html/beta/application/controllers/clients.php on line 550
+[30-May-2013 15:41:01 UTC] PHP Fatal error:  Uncaught exception 'MongoConnectionException' with message 'Failed to connect to: localhost:27017: Transport endpoint is not connected' in /home/getcontr/public_html/beta/application/controllers/clients.php:550
+Stack trace:
+#0 /home/getcontr/public_html/beta/application/controllers/clients.php(550): MongoClient->__construct()
+#1 [internal function]: Clients->show('3654')
+#2 /home/getcontr/public_html/beta/system/core/CodeIgniter.php(297): call_user_func_array(Array, Array)
+#3 /home/getcontr/public_html/beta/loader.php(176): require_once('/home/getcontr/...')
+#4 {main}
+  thrown in /home/getcontr/public_html/beta/application/controllers/clients.php on line 550
+[02-Jun-2013 09:07:00 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[02-Jun-2013 11:46:05 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[02-Jun-2013 12:25:34 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[02-Jun-2013 12:25:40 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[02-Jun-2013 13:07:05 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[02-Jun-2013 15:52:56 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[02-Jun-2013 15:52:58 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[02-Jun-2013 15:53:05 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[02-Jun-2013 15:53:16 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[02-Jun-2013 16:12:17 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[03-Jun-2013 08:22:30 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[03-Jun-2013 10:57:48 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[03-Jun-2013 11:50:42 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[04-Jun-2013 07:15:52 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[04-Jun-2013 08:33:17 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[04-Jun-2013 17:42:52 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[05-Jun-2013 09:10:36 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[05-Jun-2013 12:36:32 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[05-Jun-2013 13:13:58 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[06-Jun-2013 06:10:45 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[09-Jun-2013 11:40:56 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[09-Jun-2013 13:48:55 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[09-Jun-2013 14:15:38 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[09-Jun-2013 18:24:17 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[10-Jun-2013 14:42:21 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[11-Jun-2013 05:00:21 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[11-Jun-2013 11:09:28 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[11-Jun-2013 11:09:32 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[11-Jun-2013 11:37:10 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[11-Jun-2013 13:09:41 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[11-Jun-2013 13:09:44 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[12-Jun-2013 10:29:15 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[12-Jun-2013 11:55:11 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[14-Jun-2013 07:12:24 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[14-Jun-2013 08:12:33 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[16-Jun-2013 07:53:01 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[16-Jun-2013 12:28:46 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[16-Jun-2013 21:10:16 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[17-Jun-2013 12:26:24 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'On the state "insert" you must have post data' in /home/getcontr/public_html/beta/application/libraries/grocery_crud.php:2469
+Stack trace:
+#0 /home/getcontr/public_html/beta/application/libraries/grocery_crud.php(3333): grocery_CRUD_States->getStateInfo()
+#1 /home/getcontr/public_html/beta/application/controllers/admin.php(242): grocery_CRUD->render()
+#2 [internal function]: Admin->user_module_rules('clients', '3992', 'insert')
+#3 /home/getcontr/public_html/beta/system/core/CodeIgniter.php(297): call_user_func_array(Array, Array)
+#4 /home/getcontr/public_html/beta/loader.php(176): require_once('/home/getcontr/...')
+#5 {main}
+  thrown in /home/getcontr/public_html/beta/application/libraries/grocery_crud.php on line 2469
+[17-Jun-2013 16:14:08 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[17-Jun-2013 17:52:33 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[18-Jun-2013 08:50:04 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[18-Jun-2013 08:50:06 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[18-Jun-2013 08:50:11 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[18-Jun-2013 22:32:14 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123
+[19-Jun-2013 13:00:08 UTC] PHP Fatal error:  Call to a member function result() on a non-object in /home/getcontr/public_html/beta/application/controllers/services.php on line 123

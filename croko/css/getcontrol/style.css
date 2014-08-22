@@ -1,0 +1,494 @@
+html, body, a, p, span, ul, li, h1, h2, h3, h4, h5, div, img, table, tr, td, form {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+html {
+    direction: rtl;
+    text-align: right;
+    font-size: 14px;
+    font-family: Arial, Tahoma, sans-serif;
+    color: #39434b;
+}
+h1, h2, h3, h4, h5 {
+    font-weight: normal;
+}
+h1 {
+    font-size: 42px;
+}
+h2 {
+    font-size: 30px;
+    
+}
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size:18px;
+}
+
+a {
+    text-decoration: none;
+    color: #0d7073;
+}
+a:hover {
+    color: #0f9da1;
+}
+
+p {
+    line-height: 18px;
+    color:#39434b;
+}
+
+.left {
+    float: left;
+}
+.right {
+    float: right;
+    
+}
+.clear {
+    clear: both;
+}
+
+.home {
+    background: #ebebeb url(images/hm-rep.jpg) repeat-x top center;
+}
+
+.inner {
+    
+    background: #ebebeb url(images/in-rep.jpg) repeat-x center -10px;
+}
+.container {
+    margin: 0 auto;
+    width: 900px;
+}
+.header {
+    width: 900px;
+    background: url(images/head.png) no-repeat right top;
+    height: 146px;
+    margin-top: 17px;
+    position: relative;
+}
+
+.logo {
+    float: right;
+    margin: 30px 13px 0 0;
+}
+
+.btnhor {
+    position: relative;
+    white-space: nowrap;
+    height: 26px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.btnr {
+    background: url(images/btn.png) right top no-repeat;
+    height:22px;
+    position: relative;
+    padding: 4px 10px 0 0;
+    color: #39434b;
+    text-shadow: 0px 1px #fff;
+    right: 0;
+    top: 0;
+    float: right;
+}
+
+.btnl {
+    background: url(images/btn.png) left top no-repeat;
+    height:26px;
+    position: absolute;
+    left: -10px;
+    width: 10px;
+    top: 0px;
+}
+.btnr:hover .btnl {
+    
+    background: url(images/btn.png) left bottom no-repeat;
+}
+.btnr:hover {
+    background: url(images/btn.png) right bottom no-repeat;
+    text-decoration: none;
+}
+
+.log {
+    position: absolute;
+    left: 69px;
+    top: 0px;
+}
+
+.more {
+    position: absolute;
+    left: 30px;
+    bottom: 19px;
+    margin-top: 0px !important;
+}
+.menu {
+    position: absolute;
+    left: 10px;
+    top: 96px;
+}
+.menu li{
+    display: inline;
+    list-style: none;
+    padding: 0px 10px 0 14px;
+    background: url(images/menu-border.jpg) no-repeat left 2px;
+    //background: url(images/menu-border.jpg) no-repeat left 3px;
+}
+
+.menu li a {
+    color: #39434b;
+    text-shadow: 0px 1px #fff;
+    font-size: 17px;
+}
+
+.menu li a:hover {
+    text-decoration: none;
+    color: #575f63;
+}
+
+.les {
+    padding: 0px 10px 0 0px !important;
+    background: none !important;
+    //padding: 0px 0px 0 14px !important;
+}
+
+.content {
+    background: url(images/underhead.jpg) no-repeat center top;
+    min-height: 300px;
+}
+
+.inner .content {
+    background: url(images/underhead2.jpg) repeat-x center 0px;
+}
+
+.slida {
+    height: 220px;
+    width: 880px;
+    margin: 0 auto;
+    background: url(images/slida.jpg) no-repeat center top;
+    position: relative;
+}
+.loging {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+}
+.loger {
+    background: url(images/loger.png) no-repeat center top;
+    width: 104px;
+    float: right;
+    height: 24px;
+    margin-left: 10px;
+    padding: 1px 0px 0;
+}
+.submiter {
+    background: url(images/log.png) no-repeat center top;
+    height: 26px;
+    border: none;
+    cursor: pointer;
+    color: #39434b;
+    text-shadow: 0px 1px #fff;
+    width: 61px;
+    padding-bottom: 2px;
+}
+
+.submiter:hover {
+    background-position: center bottom;
+}
+.loger input {
+    border: 0px !important;
+    background: none;
+    font-size: 12px;
+    color: #8f8f8f;
+    width: 94px;
+    padding: 5px 4px 1px;
+}
+
+.signup {
+    width: 250px;
+    float: left;
+    padding: 20px;
+}
+
+
+.sign {
+    display: block;
+    height: 43px;
+    width: 249px;
+    margin: 20px auto;
+    background: url(images/sign.png) no-repeat center top;
+}
+
+.sign:hover {
+    background-position: center bottom;
+}
+
+.signup h2 {
+    color: #fff;
+    text-shadow: 0px 1px #5a7071;
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.signup p {
+    color: #fff;
+    text-shadow: 0px 1px #5a7071;
+    height: 55px;
+    padding-bottom: 10px;
+}
+
+.preper {
+    background: url(images/preper.png) no-repeat center top;
+    height: 198px;
+    width: 900px;
+    margin-top: 25px;
+}
+
+.thirder {
+    width: 240px;
+    padding: 12px 30px;
+    float: right;
+    position: relative;
+    height: 170px;
+}
+.thirder .title {
+    font-size: 22px;
+    margin-bottom: 14px;
+    font-weight: bold;
+}
+.thirder p {
+    font-size: 13px;
+}
+
+.contaline {
+    clear: both;
+    display: block;
+    margin-top: 6px;
+    overflow: hidden;
+}
+
+.contaname {
+    background: url(images/contact1.png) no-repeat right 8px;
+    width: 43px;
+    height: 30px;
+    float: right;
+}
+
+.mail {
+    background-position: right -26px;
+}
+
+.contaput {
+    background: url(images/contaput.png) no-repeat right top;
+    width: 197px;
+    height: 22px;
+    float: right;
+    padding: 1px 0;
+}
+.contaput input {
+    width: 175px;
+    padding: 4px 10px 0;
+    background: none;
+    border: none;
+}
+
+.sender {
+    background: url(images/send.png) no-repeat right top;
+    height: 26px;
+    width: 87px;
+    border: none;
+    cursor: pointer;
+    float: left;
+}
+
+.sender:hover {
+    background-position: right bottom;
+}
+
+.footer {
+    padding: 60px 0px 0;
+    height: 140px;
+    clear: both;
+}
+
+.footer ul {
+    padding-right: 0px;
+}
+hr {
+    color: #fff;
+    background: #c0c2c2;
+    margin-bottom: 15px;
+    height: 1px;
+    //color: #c0c2c2;
+}
+
+.foot-links li {
+    list-style: none;
+    display: inline;
+}
+
+.foot-links li span {
+    color: #888389;
+    font-size: 11px;
+    padding: 0px 8px 0 4px;
+}
+.rights {
+    color: #888389;
+    font-size: 11px;
+    float: right;
+    line-height: 35px;
+}
+.foot-links li a {
+    color: #888389;
+    font-size: 11px;
+}
+
+.open-studio a {
+    color: #362f2d;
+    padding-left: 20px;
+    background: url(images/open-logo.png) no-repeat left bottom;
+    height:27px;
+    float: left;
+    line-height: 33px;
+    cursor: pointer;
+}
+.open-studio a:hover {
+    text-decoration: none;
+    background: url(images/open-logo.png) no-repeat left 1px;
+}
+.open-studio {
+    float: left;
+    color: #362f2d;
+}
+
+.di, .bui, .stu, .ope {
+    float: left;
+    font-family: tahoma;
+    font-size: 12px;
+}
+
+.di {
+    padding: 0px 8px;
+    color: #888389;
+}
+
+.bui {
+    color: #888389;
+    font-size: 11px;
+    line-height: 35px;
+    
+}
+.ope {
+    color:#35b21f;
+}
+
+.inna {
+    background: url(images/inner-tita.jpg) no-repeat center top;
+    height: 62px;
+    clear: both;
+}
+
+.inna .signup {
+    padding: 10px 20px 0px;
+}
+
+.inna .sign {
+    margin: 0px;
+}
+
+.inna .title {
+    color: #fff;
+    float: right;
+    padding-right: 20px;
+    padding-top: 8px;
+    font-size: 42px;
+    text-shadow: 0px 1px #404c4c;
+    font-weight: normal;
+}
+
+.lefter {
+    width: 290px;
+    float: left;
+    height: 80px;
+    margin: 20px 0 0 10px;
+}
+
+.righter {
+    float: right;
+    margin: 20px 10px 0 0;
+    width: 540px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.inner p {
+    margin: 18px 0;
+}
+
+ul {
+    padding-right: 15px;
+}
+
+.sidebar-div {
+    background: url(images/lefterrep.jpg) repeat-y top center;
+    overflow: hidden;
+    width: 290px;
+    position: relative;
+    margin-bottom: 10px;
+    min-height: 160px
+}
+
+.sidebar-bottom {
+    background: url(images/lefterb.jpg) no-repeat center bottom;
+    overflow: hidden;
+    width: 290px;
+    position: absolute;
+    bottom: 0px;
+    height: 23px;
+}
+.sidebar-top {
+    background: url(images/leftert.jpg) no-repeat center top;
+    width: 290px;
+    position: absolute;
+    top: 0px;
+    height: 16px;
+}
+
+
+.sidebar-content {
+    position: relative;
+    z-index: 10;
+    padding: 8px 24px 32px;
+    overflow: hidden;
+}
+
+.lefter .divider {
+    background: url(images/lefter-divider.jpg) repeat-x center top;
+    height: 2px;
+    clear: both;
+    display: block;
+    margin: 5px 0px;
+}
+
+.lefter h3 {
+    font-weight: bold;
+    text-shadow: 0px 1px #fff;
+    font-size: 22px;
+}
+
+.picons {
+    width: 48px !important;
+}
+
+
+
+textarea .textarea-200 {
+	width: 200px;
+}

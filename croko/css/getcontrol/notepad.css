@@ -1,0 +1,91 @@
+body {
+	font-family: Arial ; 
+	direction: rtl ; 
+	text-align: right;
+	
+	background-color : #d9d9d9 ;
+	
+	color : #525c5e ;  
+}
+
+.menu {
+	width: 800px;
+	height:40px;
+	
+	margin: 10px auto;
+}
+
+.menu a {
+	
+	text-decoration: none;
+	
+}
+.menu img {
+	margin-left: 10px; 
+}
+
+.clear {
+	clear: both ; 
+}
+
+
+.general {
+	
+	width : 800px;
+	height:600px;
+	
+	padding:0;
+	margin : 0px auto ;
+	
+	
+	
+	background-image: url(/images/logo2.png) ;
+	background-repeat: no-repeat ; 
+	background-position: center bottom;
+	
+}
+
+
+.note {
+    background-color: white ;
+    height: 250px;
+    padding: 10px;
+    position: absolute;
+    width: 200px;
+    -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.note:hover .closebutton {
+    display: block;
+}
+
+.closebutton {
+    display: none;
+    background-image: url(/images/crm/notepad/deleteButton.png);
+    height: 30px;
+    position: absolute;
+    left: -15px;
+    top: -15px;
+    width: 30px;
+}
+
+.closebutton:active {
+    background-image: url(/images/crm/notepad/deleteButtonPressed.png);
+}
+
+.edit {
+    outline: none;
+}
+
+.timestamp {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    font-size: 9px;
+    background-color: #2a9de0;
+    color: white;
+    border-top: 1px solid #525c5e;
+    padding: 2px 4px;
+    text-align: right;
+}

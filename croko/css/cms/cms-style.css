@@ -1,0 +1,187 @@
+body {
+    margin-top: 40px !important;
+}
+
+.left {
+    float: left !important;
+}
+
+.right {
+    float: right !important;
+}
+
+
+
+.container {
+    /*width: 900px;*/
+    margin: 0 auto;
+}
+
+.main-content {
+    min-height: 200px;
+    overflow: hidden;
+    display: block;
+    clear: both;
+}
+.content {
+    min-height: 200px;
+    
+}
+
+
+.cms-line {
+    height: 40px;
+    position: fixed;
+    top: 0px;
+    background: url(/images/cms/rep.jpg) repeat-x center top;
+    display: block;
+    width: 100%;
+    z-index: 2000;
+}
+
+.cms-content {
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.controller {
+    height: 34px;
+    margin: 6px 0px 0 0 ;
+    width: 280px;
+}
+
+.controller2 {
+    height: 34px;
+    margin: 6px 0px 0 0 ;
+    width: 42px;
+}
+
+.explain {
+    width: 148px;
+    height: 26px;
+    background: url(/images/cms/explain.jpg) no-repeat right top;
+    float: right;
+    color: #fff;
+    padding-right: 18px;
+    padding-top: 13px;
+}
+
+.red {
+    background: red;
+    height: 40px;
+    width: 50px;
+    float: right;
+    display: block;
+    overflow: hidden;
+}
+
+.cms-btn {
+    height: 28px;
+    width: 32px;
+    float: right;
+    display: block;
+    background: url(/images/cms/controller.png) no-repeat right top;
+    margin-left: 8px;
+}
+
+
+.add {
+    background-position: right top;
+}
+
+.del {
+    background-position: right -38px;
+}
+
+.seo {
+    background-position: right -76px;
+    
+}
+
+.pre {
+    
+    background-position: right -114px;
+}
+.help {
+    background-position: right -152px;
+}
+
+.off {
+    background-position: right -190px;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.off:hover {
+    background-position: left -190px;
+    
+}
+.add:hover {
+    background-position: left top;
+}
+
+.del:hover  {
+    background-position: left -38px;
+}
+
+.seo:hover  {
+    background-position: left -76px;
+    
+}
+
+.pre:hover  {
+    
+    background-position: left -114px;
+}
+.help:hover  {
+    background-position: left -152px;
+}
+
+.cms-border {
+    width: 2px;
+    height: 39px;
+    background: url( /images/cms/border.jpg) no-repeat center top;
+    display: block;
+}
+
+.cms-logo a{
+    float: left;
+    width: 140px;
+    background: url(/images/cms/studio-log.jpg) no-repeat left top;
+    height: 34px;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.cms-logo a:hover {
+    background-position: right top;
+}
+.cms-btn:hover {
+    text-decoration: none !important;
+}
+
+.cms-btn:hover .explenation{
+    display: block;
+}
+
+.explenation {
+    position: absolute;
+    top: 13px;
+    color: #fff;
+    white-space: nowrap;
+    right: 295px;
+    display: none;
+}
+
+#TB_window {
+    z-index: 800 !important;
+}
+
+
+
+
+
+
+
+
+

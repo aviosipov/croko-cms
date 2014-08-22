@@ -1,0 +1,145 @@
+<?// 	if ($this->User->is_admin())  {  	?>
+	
+<? 		if ($thanks_scripts) echo $thanks_scripts ; // thank you page scripts only ... ?> 
+<?      if ($this->User->is_logged_in()) { ?>
+	
+	
+	
+	
+	
+	
+		
+		<!--
+		
+		<div class="gallery-box">
+			
+			<div class="gallery-image">			
+				<img src="http://communabuilder.tapuz.co.il/UsersFolders/barrefaeli/images/0908200968658.jpg" />				
+			</div>
+
+			<div class="gallery-image">
+				<img src="http://img.mako.co.il/2010/07/08/bar-refaeli-v-66-01_g.jpg" />
+			</div>	
+			
+			<div class="gallery-image">
+				<img src="http://www.israel-celebs.com/files/images/668.jpg" />
+			</div>
+			
+			<div class="gallery-image">
+				<img src="http://www.guyp.co.il/wp-content/uploads/2010/03/cover2-477x610.jpg" />
+			</div>
+
+			<div class="gallery-image">			
+				<img src="http://communabuilder.tapuz.co.il/UsersFolders/barrefaeli/images/0908200968658.jpg" />				
+			</div>
+
+			<div class="gallery-image">
+				<img src="http://img.mako.co.il/2010/07/08/bar-refaeli-v-66-01_g.jpg" />
+			</div>	
+			
+			<div class="gallery-image">
+				<img src="http://www.israel-celebs.com/files/images/668.jpg" />
+			</div>
+			
+			<div class="gallery-image">
+				<img src="http://www.guyp.co.il/wp-content/uploads/2010/03/cover2-477x610.jpg" />
+			</div>
+
+			
+		</div>
+		--> 
+
+
+	<div class="cms-window">				
+		<iframe id="cms-frame" class="cms-frame" ></iframe>		 		
+	</div>
+
+    <div class="cms-line">
+    	
+    	
+    	
+    	
+        <div class="cms-content">
+        	
+        	
+
+			  	
+        	
+			<div class="buttons right">
+			  
+			  	
+
+ 				<a id="help"  class="button menu-button "><span class="icon icon198 "></span><span class="label ">חיפוש</span></a> 
+ 				<a id="settings"  class="button menu-button "><span class="icon icon96 "></span><span class="label ">הגדרות</span></a>
+ 				<a id="galleries"  class="button menu-button "><span class="icon icon115 "></span><span class="label">גלריות</span></a>
+ 				<a id="delete"  class="button menu-button "><span class="icon icon186 "></span><span class="label ">מחיקה</span></a>
+ 				<a id="edit"  class="button menu-button"><span class="icon icon145 "></span><span class="label ">עריכה</span></a>
+ 				<a id="new-article"  class="button menu-button"><span class="icon icon55"></span><span class="label ">מאמר חדש</span></a>
+ 				<a id="new-page"  class="button menu-button"><span class="icon icon68"></span><span class="label ">עמוד חדש</span></a>
+			</div> <!-- /.buttons -->     
+			
+
+
+			<div class="buttons left">
+				
+				
+			  
+	            <button id="exit_admin" class="action blue button "><span class="label ">יציאה</span></button>	
+ 				<button id="save_content" class="action red button " ><span class="label ">שמירה</span></button>
+
+ 				
+			</div> <!-- /.buttons -->     
+			
+        	
+        	<!--
+        	
+           <div class="controller right">
+           	
+           	
+           	
+            <a href="/admin/add/page/?keepThis=true&TB_iframe=true&height=230&width=430" class="cms-btn add thickbox"><span class="explenation">הוסף עמוד חדש</span></a>
+            <a href="/admin/add/article/?keepThis=true&TB_iframe=true&height=260&width=430" class="cms-btn add thickbox"><span class="explenation">הוסף מאמר חדש</span></a>
+            
+
+
+             
+		    <? if ($article->id > 0) { ?>
+
+	            <a href="/admin/delete/article/<?=$article->id;?>" class="cms-btn del"><span class="explenation">מחק מאמר</span></a>
+	            <a href="/admin/edit/article/<?=$article->id;?>/?keepThis=true&TB_iframe=true&height=490&width=750" class="cms-btn seo thickbox" ><span class="explenation">ערוך מאמר</span></a>                        
+	            		    	
+		    	
+	    	<? } elseif ($page->id > 0) { ?>           
+            
+	            <a href="/admin/delete/page/<?=$page->id;?>" class="cms-btn del"><span class="explenation">מחק עמוד</span></a>                        
+	            <a href="/admin/edit/page/<?=$page->id;?>/?keepThis=true&TB_iframe=true&height=450&width=790" class="cms-btn seo thickbox" ><span class="explenation">ערוך עמוד</span></a>
+	            
+            
+            <? } ?>
+            
+            <a href="/galleries/addgallery/?keepThis=true&TB_iframe=true&height=450&width=750" class="cms-btn pre thickbox"><span class="explenation">גלריות</span></a>
+            
+            <a href="/admin/settings/?keepThis=true&TB_iframe=true&height=500&width=750" class="cms-btn pre thickbox"><span class="explenation">הגדרות אתר</span></a>
+            
+            <a href="admin/help/?keepThis=true&TB_iframe=true&height=450&width=750" class="cms-btn help thickbox"><span class="explenation">עזרה</span></a>
+           </div>
+           
+           <div class="explain">
+           </div>
+            
+            
+           <div class="controller2 left">
+            <a href="/users/logout" class="cms-btn off left"></a>
+           </div>
+           <div class="cms-border left"></div>
+           
+           <div class="cms-logo">
+            <a href="#"></a>
+           </div>
+           -->
+            
+        </div><!-- cms-content -->
+    </div><!-- cms-line -->		
+    
+
+<? } ?> 

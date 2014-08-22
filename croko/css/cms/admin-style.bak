@@ -1,0 +1,128 @@
+
+body {
+    margin-top: 30px !important;
+}
+
+
+
+
+#cms-menu {
+	
+	position:fixed; 
+	z-index:9999; 
+	width:100px ; 
+	left: -100px; 
+	height:600px; 
+	top:250px;
+	
+}
+
+
+.cms-frame {
+	
+	width: 888px; 
+	height: 590px;
+	border: none;  	
+	
+	overflow: scroll ; 	
+	
+}
+
+
+
+
+.left {
+    float: left !important;
+}
+
+.right {
+    float: right !important;
+}
+
+
+
+.container {
+    /*width: 900px;*/
+    margin: 0 auto;
+}
+
+.main-content {
+    min-height: 200px;
+    overflow: hidden;
+    display: block;
+    clear: both;
+}
+
+
+.content {
+    min-height: 200px;
+    
+}
+
+
+.cms-line {
+    background: #F1F1F1;
+    border: 1px solid #D2D2D2;
+    height: 40px;
+    position: fixed;
+    top: 0px;
+    display: block;
+    width: 100%;
+    z-index: 9999;
+}
+
+.cms-window {
+
+    background: #F8F8F8;    
+    position: fixed;
+    top: 0px;  /* used to be 41px */  
+    display: none;
+    width: 888px;
+
+    z-index: 9999;
+    right: 50%;
+    margin-right: -443px;    
+    padding: 0!important;
+    border-left: 1px solid #E0E0E0;
+    border-right: 1px solid #E0E0E0;
+
+    height: 0px;
+    min-height: 0px;
+}
+
+
+
+.cms-content {
+    width: 888px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+#TB_window {
+    z-index: 800 !important;
+}
+
+
+
+
+
+.gallery-image {
+    width: 171px;
+    height: 180px;
+    float: right;
+    margin-left: 15px;
+    overflow: hidden;
+    background-color: white;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, .5);
+}
+.gallery-image img {
+    max-width: 100%;
+    max-height: 100%;    
+}
+
+
+

@@ -1,0 +1,1565 @@
+/**
+ * Buttons
+ */
+.button {
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;    
+    -moz-box-shadow:inset 1px 1px 0 rgba(255,255,255,0.3);
+    -webkit-box-shadow:inset 1px 1px 0 rgba(255,255,255,0.3);
+    box-shadow:inset 1px 1px 0 rgba(255,255,255,0.3);
+    -moz-box-sizing: border-box !important;
+    cursor: pointer;
+    display: inline-block;
+    font: 13px/100% 'Lucida Grande', 'Lucida Sans Unicode', 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+    line-height: 16px;
+    outline: none !important;
+    padding: 4px 10px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.button:hover {
+    text-decoration: none;
+}
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; }
+
+.button-round {
+    -moz-border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -khtml-border-radius: 16px;
+    border-radius: 16px;
+    padding: 7px 0;
+    width: 30px;
+}
+
+.button-gray {
+    background: #f1f1f1;
+    background: -webkit-gradient(linear, left top, left bottom, from(#e9e9e9), to(#d1d1d1));
+    background: -moz-linear-gradient(top,  #e9e9e9,  #d1d1d1);
+    -pie-background: linear-gradient(top,  #e9e9e9,  #d1d1d1);
+    border: 1px solid #bbb;
+    color: #555;
+    text-shadow: 0 1px 0 #fff;
+}
+.button-gray:hover, .button-gray:focus, .button-gray.hover {
+    border: 1px solid #aaa;
+    background: #ececec;
+    background: -webkit-gradient(linear, left top, left bottom, from(#e1e1e1), to(#c1c1c1));
+    background: -moz-linear-gradient(top,  #e1e1e1,  #c1c1c1);
+    -pie-background: linear-gradient(top,  #e1e1e1,  #c1c1c1);
+    border: 1px solid #999;
+    color: #555;
+}
+.button-gray:active, .button-gray.active, .button-gray.current {
+    background: #ddd;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#e9e9e9));
+    background: -moz-linear-gradient(top,  #ccc,  #e9e9e9);
+    -pie-background: linear-gradient(top,  #ccc,  #e9e9e9);
+    border: 1px solid #999;
+    color: #555;
+}
+
+.button-orange {
+    background: #f78d1d;
+    background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+    background: -moz-linear-gradient(top, #faa51a, #f47a20);
+    -pie-background: linear-gradient(top, #faa51a, #f47a20);
+    border: solid 1px #dd6611;
+    color: #fef4e9;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.25);
+}
+.button-orange:hover, .button-orange:focus, button-orange.hover {
+    background: #f47c20;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
+    background: -moz-linear-gradient(top,  #f88e11,  #f06015);
+    -pie-background: linear-gradient(top,  #f88e11,  #f06015);
+    border: solid 1px #aa5511;
+    color: #fef4e9;
+}
+.button-orange:active, .button-orange.active, .button-orange.current {
+    background: #f47a20;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f47a20), to(#faa51a));
+    background: -moz-linear-gradient(top,  #f47a20, #faa51a);
+    -pie-background: linear-gradient(top,  #f47a20, #faa51a);
+    border: solid 1px #aa5511;
+    color: #fef4e9;
+}
+
+.button-red {
+    background-color: #C44747;
+    background: -moz-linear-gradient(top, #DD5F5F 10%, #A92C2C 90%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.1, #DD5F5F), color-stop(0.9, #A92C2C));
+    -pie-background: linear-gradient(top, #DD5F5F 10%, #A92C2C 90%);
+    border: 1px solid #A92C2C; 
+    color: #fef4e9;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.25);
+}
+.button-red:hover, .button-red:focus, button-red.hover {
+    background-color: #C44747;
+    background: -moz-linear-gradient(top, #DD4141 10%, #A92121 90%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.1, #DD4141), color-stop(0.9, #A92121));
+    -pie-background: linear-gradient(top, #DD4141 10%, #A92121 90%);
+    border: 1px solid #711; 
+    color: #fef4e9;
+}
+.button-red:active, .button-red.active, .button-red.current {
+    background-color: #C44747;
+    background: -moz-linear-gradient(top, #A92C2C 10%, #DD5F5F 90%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.1, #A92C2C), color-stop(0.9, #DD5F5F));
+    -pie-background: linear-gradient(top, #A92C2C 10%, #DD5F5F 90%);
+    border: 1px solid #711; 
+    color: #fef4e9;
+}
+
+.button-blue {
+    background: #0095cd;
+    background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+    background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+    -pie-background: linear-gradient(top,  #00adee,  #0078a5);
+    border: 1px solid #034462;
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.25);
+}
+.button-blue:hover, .button-blue:focus, .button-blue.hover {
+    background: #007ead;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+    background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+    -pie-background: linear-gradient(top,  #0095cc,  #00678e);
+    border: 1px solid #234;
+    color: #fff;
+}
+.button-blue:active, .button-blue.active, .button-blue.current {
+    background: #80bed6;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0078a5), to(#00adee));
+    background: -moz-linear-gradient(top,  #0078a5,  #00adee);
+    -pie-background: linear-gradient(top,  #0078a5,  #00adee);
+    border: 1px solid #234;
+    color: #fff;
+}
+
+.button-green {
+    color: #fff;
+    background: #8fc857;
+    background: -webkit-gradient(linear, left top, left bottom, from(#8fc857), to(#5c9425));
+    background: -moz-linear-gradient(top,  #8fc857,  #5c9425);
+    -pie-background: linear-gradient(top,  #8fc857,  #5c9425);
+    text-shadow: 0 1px 1px rgba(0,0,0,0.25);
+    border:1px solid #561;
+}
+.button-green:hover, .button-green:focus, .button-green.hover {
+    border:1px solid #556611;
+    background: #8fbb44;
+    background: -webkit-gradient(linear, left top, left bottom, from(#8fbb44), to(#5c8825));
+    background: -moz-linear-gradient(top,  #8fbb44,  #5c8825);
+    -pie-background: linear-gradient(top,  #8fbb44,  #5c8825);
+    border:1px solid #342;
+}
+.button-green:active, .button-green.active, .button-green.current {
+    background: #8fbb44;
+    background: -webkit-gradient(linear, left top, left bottom, from(#5c8825), to(#8fbb44));
+    background: -moz-linear-gradient(top,  #5c8825,  #8fbb44);
+    -pie-background: linear-gradient(top,  #5c8825,  #8fbb44);
+    border:1px solid #342;
+}
+
+/**
+ * Action Buttons
+ */
+ul.action-buttons {
+    list-style-type: none;
+    padding: 0;
+}
+ul.action-buttons li {
+    display: block;
+    float: left;
+    margin: 0 2px;
+    height: 26px;
+    line-height: 24px;
+}
+ul.action-buttons li:first-child {
+    margin-left: 0;
+}
+ul.action-buttons li:last-child {
+    margin-right: 0;
+}
+.button span {
+    display: inline-block;
+    float: left;
+    *float: none;
+    height: 16px;
+    margin-right: 5px;
+    position: relative;
+    width: 16px;
+    zoom: 1;
+    *display: inline;
+}
+a.button.no-text {
+    display: block;
+    font-size: 0;
+    text-indent: -999em;
+    padding: 0;
+    line-height: 24px;
+    *line-height: 0;
+    _height: 24px;
+    overflow: hidden;
+}
+.button.no-text span {
+    display: block;
+    float: none;
+    margin: 0;
+    height: 24px;
+    width: 24px;
+}
+.button span.accept {
+    background: transparent url(../images/icons/accept.png) no-repeat center center;
+}
+.button span.add {
+    background: transparent url(../images/icons/add.png) no-repeat center center;
+}
+.button span.pencil {
+    background: transparent url(../images/icons/pencil.png) no-repeat center center;
+}
+.button span.bin {
+    background: transparent url(../images/icons/bin.png) no-repeat center center;
+}
+.button span.calendar {
+    background: transparent url(../images/icons/calendar.png) no-repeat center center;
+}
+.button span.calendar-view-day {
+    background: transparent url(../images/icons/calendar_view_day.png) no-repeat center center;
+}
+.button span.calendar-view-month {
+    background: transparent url(../images/icons/calendar_view_month.png) no-repeat center center;
+}
+.button span.calendar-view-week {
+    background: transparent url(../images/icons/calendar_view_week.png) no-repeat center center;
+}
+.button span.chart-bar {
+    background: transparent url(../images/icons/chart_bar.png) no-repeat center center;
+}
+.button span.chart-curve {
+    background: transparent url(../images/icons/chart_curve.png) no-repeat center center;
+}
+.button span.chart-line {
+    background: transparent url(../images/icons/chart_line.png) no-repeat center center;
+}
+.button span.chart-org {
+    background: transparent url(../images/icons/chart_organisation.png) no-repeat center center;
+}
+.button span.chart-pie {
+    background: transparent url(../images/icons/chart_pie.png) no-repeat center center;
+}
+.button span.color-swatch {
+    background: transparent url(../images/icons/color_swatch.png) no-repeat center center;
+}
+.button span.disk {
+    background: transparent url(../images/icons/disk.png) no-repeat center center;
+}
+.button span.help {
+    background: transparent url(../images/icons/help.png) no-repeat center center;
+}
+.button span.view-list {
+    background: transparent url(../images/icons/application_view_list.png) no-repeat center center;
+}
+.button span.view-grid {
+    background: transparent url(../images/icons/application_view_tile.png) no-repeat center center;
+}
+.button span.wrench {
+    background: transparent url(../images/icons/wrench.png) no-repeat center center;
+}
+
+ul.action-buttons.small li {
+    height: 15px;
+    width: 15px;
+    line-height: 14px;
+}
+ul.action-buttons.small li a {
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    display: block;
+    border: 1px solid #bbb;
+    line-height: 14px;
+    overflow: hidden;
+}
+ul.action-buttons.small li a:hover {
+    background: #bbb;
+    border: 1px solid #999;
+}
+ul.action-buttons.small a span {
+    display: block;
+    float: left;
+    height: 15px;
+    margin: 0;
+    position: relative;
+    height: 14px;
+    width: 14px;
+}
+ul.action-buttons.small a span.close {
+    background: transparent url(../images/cross-small.png) no-repeat center center;
+}
+
+/**
+ * Pagination
+ */
+
+.pagination {
+    margin: 1em 0;
+    padding: 0;
+}
+
+.pagination li {
+    display: inline-block;
+    float: right;
+    margin: 0 2px;
+}
+.pagination li a {
+    font-family: 'Lucida Grande', Verdana, Arial, 'Bitstream Vera Sans', sans-serif;
+    display: block;
+    padding: 0 6px;
+    height: 20px;
+    line-height: 20px;
+
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    
+    -moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+    -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+    -khtml-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+    
+    cursor: pointer;
+    outline: none !important;
+    text-align: center;
+    text-decoration: none;
+}
+
+.pagination li a.current {
+    background: #fff;
+    -pie-background: #fff;
+    color: #666;
+}
+
+/**
+ * Widgets
+ */
+.widget-container {
+    position: relative;
+}
+.widget-container > h2 {
+    font-size: 13px;
+    margin: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.widget-container[draggable=true] header {
+    cursor: move;
+}
+
+.widget-container h2.report-icon {
+    padding-right: 20px;
+    background: transparent url(../images/icons/chart_bar.png) no-repeat right center;
+}
+.widget {
+    margin-bottom: 18px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    zoom: 1;
+}
+.widget-container .widget {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin-bottom: 0;
+}
+.widget:hover {
+    -moz-box-shadow: 0 0 3px #555;
+    -moz-box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 0 3px #555;
+    -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    -khtml-box-shadow: 0 0 3px #555;
+    -khtml-box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    -pie-box-shadow: 0 0 3px #555;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+.widget header {
+    background: #e1e1e1;
+    background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#e1e1e1));
+    background: -moz-linear-gradient(top, #eee, #e1e1e1);
+    -pie-background: linear-gradient(top, #eee, #e1e1e1);
+    -moz-border-radius: 4px 4px 0 0;
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -khtml-border-top-left-radius: 4px;
+    -khtml-border-top-right-radius: 4px;
+    border-radius: 4px 4px 0 0;
+    font-size: 13px;
+    margin: 0;
+    padding: 0 4px;    
+    position: relative;
+}
+.widget.black header {
+    background: #222;
+    background: -webkit-gradient(linear, left top, left bottom, from(#434343), to(#222));
+    background: -moz-linear-gradient(top, #434343, #222);
+    -pie-background: linear-gradient(top, #434343, #222);
+}
+.widget-container .widget header {
+    height: 4px;
+}
+.widget header h2 {
+    color: #000;
+    font-size: 13px;
+    line-height: 30px;
+    margin: 0;
+    text-shadow: 0 1px 0 #fff;
+}
+.widget header h2 a {
+    text-decoration: none;
+}
+.widget.black header h2 {
+    color: #fff;
+    text-shadow: 0 -1px 0 #000;
+}
+.widget header ul.action-buttons.small {
+    position: absolute;
+    top: 7px;
+    left: 4px;
+}
+.widget section {
+    background: #fefefe;
+    border-left: 4px solid #e1e1e1;
+    border-right: 4px solid #e1e1e1;
+    border-bottom: 4px solid #e1e1e1;
+    -moz-border-radius: 0 0 4px 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -khtml-border-bottom-left-radius: 4px;
+    -khtml-border-bottom-right-radius: 4px;
+    border-radius: 0 0 4px 4px;
+    -moz-box-shadow:inset 0 0 2px rgba(0,0,0,0.5);
+    -webkit-box-shadow:inset 0 0 2px rgba(0,0,0,0.5);
+    -khtml-box-shadow:inset 0 0 2px rgba(0,0,0,0.5);
+    box-shadow:inset 0 0 2px rgba(0,0,0,0.5);
+    padding: 10px;
+}
+.widget.black section {
+    border-color: #222;
+}
+.widget .report-preview {
+    height: 140px;
+}
+
+.widget-container section {
+    position: relative;
+    bottom: 0;
+}
+
+.widget.modal {
+    display: none;
+    width: 300px;
+    top: 100px !important;
+}
+
+.widget-placeholder {
+    background: #eee;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 0;
+}
+
+.widget .rollover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000 url(../images/zoom.png) no-repeat center center;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.overlay-details {
+    background: #fff;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    border-radius: 6px;
+    -moz-box-shadow: 0 0 10px #000;
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    -webkit-box-shadow: 0 0 10px #000;
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    -khtml-box-shadow: 0 0 10px #000;
+    -khtml-box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    box-shadow: 0 0 10px #000;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    display: none;
+    min-height: 300px;
+    width: 640px;
+    z-index: 9999;
+}
+
+.overlay-details > header {
+    background: #f6f9ff;
+    border-bottom: 1px solid #f1f3ff;
+    -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-top-left-radius: 6px;
+    -webkit-border-top-right-radius: 6px;
+    -khtml-border-top-left-radius: 6px;
+    -khtml-border-top-right-radius: 6px;
+    border-radius: 6px 6px 0 0;
+}
+
+.overlay-details > header, .overlay-details > section {
+    padding: 20px;
+}
+
+.overlay-details > header > hgroup > h2, .overlay-details > header > hgroup > h6 {
+    margin: 0 0 5px 0;
+}
+
+.overlay-details > header > .avatar {
+    background: #fff;
+    border: 1px solid #f1f3ff;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+.overlay-details > section {
+}
+
+/* default close button positioned on upper right corner */
+.overlay-details .close {
+    background-image:url(../images/close-icon.png);
+    position:absolute; right:-14px; top:-14px;
+    cursor:pointer;
+    height:30px;
+    width:30px;
+    z-index: 999;
+}
+
+/**
+ * Widget Shadows
+ */
+.widget:before, .widget:after, .panel:before, .panel:after {
+    content: " ";
+    display: block;
+    width: 99px;
+    height: 12px;
+    position: absolute;
+    bottom: 6px;
+}
+.widget-container .widget:before, .widget-container .widget:after {
+    bottom: -12px;
+}
+
+.widget:before, .panel:before {
+    left: 0px;
+    background: transparent url(../images/shadow_small_left.png) no-repeat top left;
+}
+
+.widget:after, .panel:after {
+    right: 0px;
+    background: transparent url(../images/shadow_small_right.png) no-repeat top left;
+}
+
+.widget.modal:before, .widget.modal:after {
+    bottom: -12px;
+}
+
+
+/**
+ * Tabs
+ */
+
+/* root element for tabs  */
+.tabs { 
+    list-style:none; 
+    margin:0 !important; 
+    padding:0;
+    height:30px;
+    border-bottom:1px solid #aaa;    
+}
+
+/* single tab */
+.tabs li { 
+    float:left;     
+    text-indent:0;
+    padding:0;
+    margin:0 2px 0 0 !important;
+    list-style-image:none !important;
+    border-top: 1px solid #aaa;
+    border-left: 1px solid #aaa;
+    border-right: 1px solid #aaa;
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -khtml-border-top-left-radius: 4px;
+    -khtml-border-top-right-radius: 4px;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+}
+
+/* link inside the tab. uses a background image */
+.tabs a {
+    background: #ddd;
+    background: -moz-linear-gradient(top,  #eee,  #ddd);
+    background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ddd));
+    -pie-background: linear-gradient(top,  #eee,  #ddd);
+    border-bottom: 1px solid #aaa;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -moz-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+    -moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+    -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+    font-size:11px;
+    display:block;
+    height: 29px;  
+    line-height:30px;
+    text-align:center;    
+    text-decoration:none;
+    color:#000;
+    padding:0px 30px;
+    margin:0px;    
+    position:relative;
+    text-shadow: 0 1px 0 #fff;
+    top:0px;
+
+    -webkit-background-clip: padding-box;
+}
+
+.tabs a:active {
+    outline:none;        
+}
+
+/* when mouse enters the tab move the background image */
+.tabs a:hover {
+    background: #ddd;    
+    -pie-background: #ddd;    
+}
+
+/* active tab uses a class name "current". it's highlight is also done by moving the background image. */
+.tabs a.current, .tabs a.current:hover {
+    border-bottom: 1px solid #fff;
+    background: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#e1e1e1), to(#fff));
+    background: -moz-linear-gradient(top,  #e1e1e1,  #fff);
+    -pie-background: linear-gradient(top,  #e1e1e1,  #fff);
+    cursor:default !important; 
+    color:#000 !important;
+    text-shadow: 0 1px 0 #fff;
+}
+
+/* tab pane styling */
+.panes {
+    border:1px solid #aaa;
+    border-top:0;
+}
+.panes section {
+    display:none;       
+    padding:15px 10px;
+    min-height:100px;
+    background-color:#fff;
+}
+
+/**
+ * Sidebar Tabs
+ */
+
+.sidebar-tabbed-pane {
+    padding: 0 !important;
+}
+
+/* root element for tabs  */
+.sidebar-tabs { 
+    list-style:none; 
+    margin:1px 0 0 0 !important; 
+    padding:0;
+    float: right;
+    width: 200px;
+}
+
+/* single tab */
+.sidebar-tabs li { 
+    display: block;
+    text-indent:0;
+    padding:0;
+    list-style-image:none !important;
+    border-top: 1px solid #aaa;
+}
+
+.sidebar-tabs li:first-child {
+    border-top: none;
+}
+
+.sidebar-tabs li:last-child a {
+    border-bottom: 1px solid #aaa;
+}
+
+/* link inside the tab. uses a background image */
+.sidebar-tabs a {
+    background: #ddd;
+    background: -moz-linear-gradient(top,  #eee,  #ddd);
+    background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ddd));
+    -pie-background: linear-gradient(top,  #eee,  #ddd);
+    -moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+    -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+    font-size:11px;
+    display:block;
+    line-height:36px;
+    text-align:left;
+    text-decoration:none;
+    color:#000;
+    padding:0px 20px;
+    margin:0px;    
+    position:relative;
+    text-shadow: 0 1px 0 #fff;
+    top:0px;
+
+    -webkit-background-clip: padding-box;
+}
+
+.sidebar-tabs a:active {
+    outline:none;        
+}
+
+/* when mouse enters the tab move the background image */
+.sidebar-tabs a:hover {
+    background: #ddd;    
+    -pie-background: #ddd;    
+}
+
+/* active tab uses a class name "current". it's highlight is also done by moving the background image. */
+.sidebar-tabs a.current, .sidebar-tabs a.current:hover {
+    background: #fff;
+    -pie-background: #fff;
+    box-shadow: inset 1px 1px 1px #bbb;
+    cursor:default !important; 
+    color:#000 !important;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #fff;
+    margin-left: -1px;
+}
+
+/* tab pane styling */
+.sidebar-tabs + .panes {
+    border: none;
+    border-right: 1px solid #aaa;
+    margin-right: 200px;
+    min-height: 200px;
+}
+.sidebar-tabs + .panes section {
+    background-color:#fff;
+    -moz-border-radius: 0 0 5px 0;
+    -webkit-border-bottom-right-radius: 5px;
+    -khtml-border-bottom-right-radius: 5px;
+    border-radius: 0 0 5px 0;
+    display:none;       
+    min-height:100px;
+    padding:15px 20px;
+}
+
+/**
+ * Accordion
+ */
+/* root element for accordion. decorated with rounded borders and gradient background image */
+.accordion {
+    color: #000;
+    background: #fff;
+    padding: 0 !important;
+    text-shadow: 0 1px 0 #fff;
+}
+
+/* accordion header */
+.accordion header {
+    background: #e1e1e1;
+    background: -moz-linear-gradient(top,  #fafafa,  #e1e1e1);
+    background: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#e1e1e1));
+    -pie-background: linear-gradient(top,  #fafafa,  #e1e1e1);
+    border: none;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    -khtml-border-radius: 0;
+    border-radius: 0;
+    cursor:pointer;        
+    padding:15px 20px;
+    -webkit-background-clip: padding-box;
+}
+.accordion header:last-of-type {
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -khtml-border-bottom-left-radius: 5px;
+    -khtml-border-bottom-right-radius: 5px;
+    border-radius: 0 0 5px 5px !important;
+}
+.accordion section:last-child {
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -khtml-border-bottom-left-radius: 5px;
+    -khtml-border-bottom-right-radius: 5px;
+    border-radius: 0 0 5px 5px;
+}
+
+.accordion header:hover {
+    background: #ececec;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#ddd));
+    background: -moz-linear-gradient(top,  #fafafa,  #ddd);
+    -pie-background: linear-gradient(top,  #fafafa,  #ddd);
+}
+
+/* currently active header */
+.accordion header.current, .accordion header:last-of-type.current {
+    cursor:default;
+    background: #ccc;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f1f1f1), to(#ccc));
+    background: -moz-linear-gradient(top,  #f1f1f1,  #ccc);
+    -pie-background: linear-gradient(top,  #f1f1f1,  #ccc);
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -khtml-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+.accordion header h2 {
+    font-size: 13px;
+    margin: 0;
+}
+
+/* accordion pane */
+.accordion section {
+    background: #f9f9f9;
+    background: -moz-linear-gradient(top,  #f9f9f9,  #efefef);
+    background: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#efefef));
+    -pie-background: linear-gradient(top,  #f9f9f9,  #efefef);
+    display:none;
+    padding:20px;
+    color:#000;
+}
+
+/* a title inside pane */
+.accordion section h3 {
+    font-weight:normal;
+    margin:0 0 -5px 0;
+    font-size:16px;
+    color:#999;
+}
+
+/**
+ * Calendar
+ */
+/* calendar root element */
+#calroot {
+    background-color:#fff;
+    -moz-box-shadow: 0 0 4px #eee;
+    -moz-box-shadow: 0 0 4px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 0 4px #eee;
+    -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.2);
+    -khtml-box-shadow: 0 0 4px #eee;
+    -khtml-box-shadow: 0 0 4px rgba(0,0,0,0.2);
+    -pie-box-shadow: 0 0 4px #ccc;
+    box-shadow: 0 0 4px rgba(0,0,0,0.2);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    font-size:11px;
+    margin-top:-1px;
+    width:205px;
+    z-index:10000;
+    zoom: 1;
+}
+
+/* head. contains title, prev/next month controls and possible month/year selectors */
+#calhead {    
+    background: #e1e1e1;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#e1e1e1));
+    background: -moz-linear-gradient(top, #fafafa, #e1e1e1);
+    -pie-background: linear-gradient(top, #fafafa, #e1e1e1);
+    border: 1px solid #bbb;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -khtml-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+    color: #333;
+    font-size: 13px;
+    height:22px;
+    margin: 0;
+    padding:2px 0;
+    position: relative;
+    text-shadow: 0 1px 0 #fff;
+} 
+
+#caltitle {
+    float:left;
+    text-align:center;
+    width:162px;
+    line-height:20px;
+}
+
+#calnext, #calprev {
+    display:block;
+    width:20px;
+    height:20px;
+    background:transparent url(../images/prev.gif) no-repeat scroll center center;
+    float:left;
+    cursor:pointer;
+}
+
+#calnext {
+    background-image:url(../images/next.gif);
+    float:right;
+}
+
+#calprev.caldisabled, #calnext.caldisabled {
+    visibility:hidden;    
+}
+
+/* year/month selector */
+#caltitle select {
+    font-size:10px;    
+}
+
+#calbody {
+    background: #fafafa;
+    border-left: 1px solid #bbb;
+    border-right: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -khtml-border-bottom-left-radius: 5px;
+    -khtml-border-bottom-right-radius: 5px;
+    border-radius: 0 0 5px 5px;
+    padding: 3px;
+    position: relative;
+}
+
+/* names of the days */
+#caldays {
+    height:14px;
+    border-bottom:1px solid #ddd;
+}
+
+#caldays span {
+    display:block;
+    float:right;
+    width:28px;
+    text-align:center;
+}
+
+/* container for weeks */
+#calweeks {
+    background-color:#fff;
+    margin-top:4px;
+}
+
+/* single week */
+.calweek {
+    clear:left;
+    height:22px;
+}
+
+/* single day */
+.calweek a {
+    display:block;
+    float:right;
+    width:27px;
+    height:20px;
+    text-decoration:none;
+    font-size:11px;
+    margin-left:1px;
+    text-align:center;
+    line-height:20px;
+    color:#666;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    -khtml-border-radius:3px;
+    border-radius:3px;
+} 
+
+/* different states */
+.calweek a:hover, .calfocus {
+    background-color:#ddd;
+}
+
+/* sunday */
+a.calsun {
+    color:red;        
+}
+
+/* offmonth day */
+a.caloff {
+    color:#ccc;        
+}
+
+a.caloff:hover {
+    background-color:rgb(245, 245, 250);        
+}
+
+
+/* unselecteble day */
+a.caldisabled {
+    background-color:#efefef !important;
+    color:#ccc    !important;
+    cursor:default;
+}
+
+/* current day */
+#calcurrent {
+    background-color:#498CE2;
+    color:#fff;
+}
+
+/* today */
+#caltoday {
+    background-color:#333;
+    color:#fff;
+}
+
+.caltrigger {
+    background:url(../images/icons/calendar.png) no-repeat 0 0 !important;
+    display:inline-block !important;
+    height:16px !important;
+    padding: 0 !important;
+    position: absolute !important;
+    right: 4px !important;
+    top: 4px !important;
+    width:16px !important;
+}
+
+/* Progress bars
+---------------------------------------------------------------------*/
+
+.progress {
+    border: 1px solid #ccc;
+    position: relative;
+    display: block;
+    height: 22px;
+    padding: 0;
+    min-width: 100px;
+    margin:4px 0;
+    background: #DEDEDE;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#e9e9e9));
+    background: -moz-linear-gradient(top, #ccc, #e9e9e9);
+    -pie-background: linear-gradient(top, #ccc, #e9e9e9);
+
+    -moz-box-shadow:0 1px 0 #fff;
+    -webkit-box-shadow:0 1px 0 #fff;
+    box-shadow:0 1px 0 #fff;
+
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+    position: relative;
+}
+.progress span {
+    display: block;
+    height: 20px;
+    margin: 0;
+    text-align:center;
+    padding: 0;
+    position: relative;
+    width:0;
+    
+    -moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+    -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+}
+.progress span b {
+    color:#fff;
+    line-height:20px;
+    padding-left:2px;
+    text-shadow:0 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.progress.progress-blue span {
+    border: 1px solid #0078a5; 
+    background-color: #5C9ADE;
+    background: -moz-linear-gradient(top, #00adee 10%, #0078a5 90%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.1, #00adee), color-stop(0.9, #0078a5));
+    -pie-background: linear-gradient(top, #00adee 10%, #0078a5 90%);
+}
+
+.progress.progress-green span {
+    border: 1px solid #5c9425; 
+    background-color: #77AF3F;
+    background: -moz-linear-gradient(top, #8fc857 10%, #5c9425 90%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.1, #8fc857), color-stop(0.9, #5c9425));
+    -pie-background: linear-gradient(top, #8fc857 10%, #5c9425 90%);
+}
+.progress-orange span {
+    border: 1px solid #f47a20; 
+    background-color: #faa51a;
+    background: -moz-linear-gradient(top, #faa51a 10%, #f47a20 90%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.1, #faa51a), color-stop(0.9, #f47a20));
+    -pie-background: linear-gradient(top, #faa51a 10%, #f47a20 90%);
+}
+.progress-red span {
+    border: 1px solid #A92C2C; 
+    background-color: #C44747;
+    background: -moz-linear-gradient(top, #DD5F5F 10%, #A92C2C 90%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.1, #DD5F5F), color-stop(0.9, #A92C2C));
+    -pie-background: linear-gradient(top, #DD5F5F 10%, #A92C2C 90%);
+}
+
+/**
+ * Inputs and Validation
+ */
+
+input, textarea, select {
+    outline: none;
+}
+
+fieldset {
+    border: 1px solid #bbb;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+fieldset legend {
+    border-left: 1px solid #bbb;
+    border-right: 1px solid #bbb;
+    padding: 0 10px;
+}
+
+.form label {
+    display: block;
+    font-size: 12px;
+    float: right;
+    font-weight: bold;
+    margin: 0;
+    text-align: right;
+    width: 80px;
+    clear: right;
+}
+
+.form label small {
+    color:#666666;
+    display:block;
+    font-size:11px;
+    font-weight:normal;
+    line-height: 11px;
+    text-align:right;
+    width:160px;
+}
+
+.form .action {
+    clear: left;
+    margin-left: 170px;
+}
+
+.form input:not(.date), .form textarea, .form .ui-select, .form .ui-file, .form .ui-date , .form select {
+    float: right;
+    margin:2px 10px 25px 0px;
+    clear: left;
+    width: 200px;
+}
+
+.form .ui-select, .form .ui-file {
+    width: 200px;
+    position: relative;
+}
+
+label em {
+    color: red;
+    font-style: normal;
+}
+
+input.half,.ui-select.half,textarea.half {
+    width:50%;
+}
+input.full,.ui-select.full,textarea.full {
+    width:95%;
+}
+
+input {
+    position: relative;
+}
+.ui-select, .ui-select .ui-select-value, textarea, input[type=text], input[type=password], input[type=email], input[type=url], input[type=date], input[type=number], input[type=time], input[type=date], .ui-date, .ui-file {
+    background-color: #fff;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding: 4px 6px;
+    
+    -moz-box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+    -webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+    font: 13px/16px Arial, sans-serif !important;
+}
+.ui-select:focus, textarea:focus, input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=url]:focus, input[type=date]:focus, input[type=number]:focus, input[type=time]:focus, input[type=date]:focus, .ui-date:focus, .ui-file:focus, .ui-focused {
+    background-color: #fdfeee;
+}
+input.large, button.large {
+    padding: 8px 12px;
+    font: 16px/20px Arial, sans-serif !important;
+}
+
+/**
+ * Skin for Dropdown
+ */
+.ui-select {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -khtml-box-shadow: none;
+    box-shadow: none;
+    padding: 0;
+    position: relative;
+    white-space: nowrap;
+    display: inline-block;
+    z-index: 40;
+}
+.clearfix {
+    position: relative;
+    z-index: 30;
+}
+
+.clearfix select {
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.ui-select select {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 24px;
+    width: 100%;
+    z-index: 50;
+}
+.form {
+    position: relative;
+}
+.ui-select .ui-select-value {
+    border: none;
+    -moz-border-radius: 3px 0 0 3px;
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    -khtml-border-top-right-radius: 0;
+    -khtml-border-bottom-right-radius: 0;
+    border-radius: 3px 0 0 3px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    white-space: nowrap;
+    z-index: 0;
+    padding: 4px 26px 4px 6px;
+    display: block;
+}
+.ui-select .ui-select-button {
+    display: block;
+    margin: 0;
+    padding: 0px;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    text-indent: -999em;
+    z-index: 1;
+    width: 24px;
+    line-height: 26px;
+}
+.ui-select .ui-select-button span {
+    background: transparent url(../images/arrow-down.png) no-repeat center center;
+    display: block;
+    float: none;
+    margin-right: 0;
+    width: 24px;
+    height: 24px;
+}
+
+/**
+ * Skin for File input
+ */
+.ui-file {
+    padding: 0;
+    position: relative;
+    width: 150px;
+    display: inline-block;
+}
+.ui-file .ui-file-value {
+    display: block;
+    padding: 4px 6px;
+    margin-right: 75px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.ui-file .ui-file-button {
+    height: 26px;
+    margin: 0;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    width: 75px;
+}
+.ui-file input[type=file] {
+    height: 26px;
+    position: absolute;
+    right: -1px;
+    top: -3px;
+    opacity: 0;
+}
+
+.ui-select .ui-select-button, .ui-file .ui-file-button {
+    -moz-border-radius: 0 3px 3px 0;
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -khtml-border-top-left-radius: 0;
+    -khtml-border-bottom-left-radius: 0;
+    border-radius: 0 3px 3px 0; 
+}
+
+.ui-date {
+    display: inline-block;
+    min-height: 16px;
+    position: relative;
+    width: 150px;
+}
+
+.ui-date .date {
+    background: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    border: none;
+    padding: 4px 6px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    width: 97%;
+    opacity: 0;
+}
+
+textarea {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+input.full {
+    width: 95%;
+}
+
+input.full.large {
+    width: 92%;
+}
+
+input.search {
+    background: #fff url(../images/search.png) no-repeat right center;
+    padding-right: 20px !important;
+}
+
+.invalid {
+    border: 1px solid red !important;
+}
+
+.form-error {
+    -moz-box-shadow: #DDD 0px 0px 6px;
+    -webkit-box-shadow: #DDD 0px 0px 6px;
+    box-shadow: #DDD 0px 0px 6px;
+    background-color: #000;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+    color: #fff;
+    display: none;
+    font-size: 11px;
+    height: 15px;
+    padding: 4px 10px;
+    z-index: 9999;
+}
+.form-error p {
+    color: #fff;
+    display: block;
+    margin: 0px;
+    line-height: 13px;
+}
+.form-error em {
+    display:block;
+    width:0;
+    height:0;
+    border: 5px solid;
+    border-width:0 5px 5px;
+    border-color: #000 transparent;
+
+    /* positioning */
+    position:absolute;
+    top: -5px;
+    left:10px;
+}
+
+
+/**
+ * Speech Bubbles
+ */
+
+.tooltip, .popupballoon {
+    position:relative;
+    padding:10px;
+    margin:1em 0 1em;
+    color:#000;
+    background:#ddd; /* default background for browsers without gradient support */
+    
+    /* css3 */
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -khtml-border-radius:5px;
+    border-radius:5px;
+    min-height: 20px;
+}
+
+/* creates triangle */
+.tooltip:before, .popupballoon:before {
+    content:" ";
+    display:block; /* reduce the damage in FF3.0 */
+    position:absolute;
+    bottom:-31px; /* value = - border-top-width - border-bottom-width */
+    left:75px; /* controls horizontal position */
+    width:0;
+    height:0;
+    border:15px solid transparent;
+    border-top-color:#dd6611;
+    zoom: 1;
+}
+
+.tooltip em, .popupballoon:after {
+    content:" ";
+    display:block; /* reduce the damage in FF3.0 */
+    position:absolute;
+    bottom:-15px; /* value = - border-top-width - border-bottom-width */
+    left:75px; /* controls horizontal position */
+    width:0;
+    height:0;
+    border-width:15px 15px 0; /* vary these values to change the angle of the vertex */
+    border-style:solid;
+    border-color:#ddd transparent;
+    zoom: 1;
+}
+
+.tooltip {
+    background: #f3961c;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f9d835), to(#f3961c));
+    background: -moz-linear-gradient(top, #f9d835, #f3961c);
+    -pie-background: linear-gradient(top, #f9d835, #f3961c);
+    border: 1px solid #dd6611;
+    -moz-box-shadow:inset 0 1px 1px rgba(255,255,255,0.5);
+    -webkit-box-shadow:inset 0 1px 1px rgba(255,255,255,0.5);
+    box-shadow:inset 0 1px 1px rgba(255,255,255,0.5);
+    color: #fff;
+    display: none;
+    font: bold 12px/16px Arial, Verdana, sans-serif;
+    text-shadow: 0 1px 1px #222;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.8);
+    margin-top: 0px;
+    text-align: center;
+    width: 100px;
+    z-index: 999;
+}
+
+.tooltip:before {
+    left: 45px;
+}
+
+.tooltip em {
+    border-color: #f3961c transparent;
+    left: 45px;
+    zoom: 1;
+}
+
+.tooltip.bottom {
+    background: #f9d835;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f9d835), to(#f3961c));
+    background: -moz-linear-gradient(top, #f9d835, #f3961c);
+    -pie-background: linear-gradient(top, #f9d835, #f3961c);
+    -moz-box-shadow:inset 0 -1px 0 rgba(255,255,255,0.3);
+    -webkit-box-shadow:inset 0 -1px 0 rgba(255,255,255,0.3);
+    box-shadow:inset 0 -1px 0 rgba(255,255,255,0.3);
+}
+
+.tooltip.bottom:before {
+    top:-16px; /* value = - border-top-width - border-bottom-width */
+    border-width:0 15px 15px; /* vary these values to change the angle of the vertex */
+    border-color: #dd6611 transparent;
+}
+.tooltip.bottom em {
+    top:-15px; /* value = - border-top-width - border-bottom-width */
+    border-width:0 15px 15px; /* vary these values to change the angle of the vertex */
+    border-color: #f9d835 transparent;
+}
+
+.popupballoon {
+    background: #fff;
+    border: 1px solid #777;
+    display: none;
+    height: auto;
+    position: absolute;
+    width: 200px;
+    z-index: 1000;
+    -moz-box-shadow: 0 1px 3px #777;
+    -webkit-box-shadow: 0 1px 3px #777;
+    -khtml-box-shadow: 0 1px 3px #777;
+    box-shadow: 0 1px 3px #777;
+    zoom: 1;
+    top: 30px;
+    left: 0;
+}
+
+.popupballoon:after {
+    border-color: #fff transparent;
+}
+.popupballoon.bottom:before {
+    top:-16px; /* value = - border-top-width - border-bottom-width */
+    left:29px; /* controls horizontal position */
+    border-width:0 16px 16px; /* vary these values to change the angle of the vertex */
+    border-color: #777 transparent;
+}
+.popupballoon.bottom:after {
+    top:-15px; /* value = - border-top-width - border-bottom-width */
+    left:30px; /* controls horizontal position */
+    border-width:0 15px 15px; /* vary these values to change the angle of the vertex */
+    border-color: #fff transparent;
+}
+.popupballoon h3 {
+    margin-top: 0;
+}
+.popupballoon input[type=text], .popupballoon input[type=date], .popupballoon .ui-date {
+    width: 185px;
+}
+.popupballoon .ui-select {
+    width: 197px;
+}

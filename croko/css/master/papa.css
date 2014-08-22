@@ -1,0 +1,89 @@
+label {
+	
+	
+	width: 85px;	
+	float: right;
+
+}
+
+
+label.error { 
+	
+	float: none; 
+	color: red; padding-right: .5em; 
+	vertical-align: top; 
+}
+
+
+input,select {
+	
+
+	border: 1px solid #333333;
+	margin-bottom: 3px;
+	width: 185px;
+	padding-right: 2px;
+
+	
+}
+
+
+
+.box33 {
+	width: 33% ; 
+	
+	padding: 5px 5px 5px 5px ;
+	
+}
+
+.clear {
+	clear: both;
+}
+
+.strong {
+	font-weight: bold;
+}
+
+.p12 {
+	font-size: 12px;
+} 
+.left {
+	float:left ; 
+}
+
+.right {
+	float: right;
+}
+
+
+.box120 {
+	
+	
+	float:right;
+	width:120px;
+	height: 120px;
+	
+	padding: 5px 5px 5px 5px ;
+	
+	
+}
+
+
+.en-contact-form label {
+	float:left ; 
+}
+
+.en-contact-form label.error {
+	
+	float:none;	
+	
+	
+}
+
+
+.antispam { display:none;} /* anti spam protection */ 
+
+
+
+
+
+

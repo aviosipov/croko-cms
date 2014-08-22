@@ -1,0 +1,38 @@
+.ui-link {
+	text-decoration: none; 
+}
+
+
+
+.info {
+	clear:both; 
+	min-height:32px;
+	border-bottom: 1px rgba(162, 162, 162, 0.4) solid;
+	margin-bottom: 11px;
+}
+
+
+.info-title {
+	
+	float:right ;
+	
+}
+
+
+.info-content {
+	
+	float: left;
+	font-weight: bold;
+}
+
+
+
+.page-title h1 {
+	font-size:18px;
+	text-align:center; 
+}
+
+
+.small-text {
+	font-size:12px;
+}
