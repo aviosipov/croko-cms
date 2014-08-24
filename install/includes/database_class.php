@@ -21,6 +21,8 @@ class Database {
 		return true;
 	}
 
+
+
 	// Function to create the tables and fill them with the default data
 	function create_tables($data)
 	{
@@ -33,6 +35,9 @@ class Database {
 
 		// Open the default SQL file
 		$query = file_get_contents('assets/install.sql');
+
+		// enable utf8 support
+		$mysqli->multi_query("SET NAMES UTF8");
 
 		// Execute a multi query
 		$mysqli->multi_query($query);

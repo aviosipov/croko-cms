@@ -6,7 +6,7 @@ class Site extends CI_Model {
 	
 	function get($id) {
 
-        $this->db->select ('id,name,owner_name,description,contact_email,online,org_id,site_url,template,language' )  ;
+        $this->db->select ('*' )  ;
 		$this->db->where('id',$id) ;
 		
         $query = $this->db->get('sites');
@@ -18,7 +18,7 @@ class Site extends CI_Model {
 	
 	function get_sites() {
 		
-        $this->db->select ('id,name,owner_name,description,contact_email,online,org_id,site_url,template' )  ;
+        $this->db->select ('*' )  ;
         $query = $this->db->get('sites');
 
         return $query ;				

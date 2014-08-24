@@ -3,8 +3,14 @@
 
 	// important - connect the site to the system 
 
+	$root = (!empty($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . '/';
+
+
+
 	$assign_to_config['site_id'] = '1';
-	$assign_to_config['base_url'] = 'http://alpha.croko.co.il/' ; 
+	$assign_to_config['base_url'] = $root ; 
+	//$assign_to_config['base_url'] = 'http://alpha.croko.co.il/' ; 
+	
 
 	error_reporting(E_ALL ^ E_NOTICE );
 

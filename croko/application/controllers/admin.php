@@ -250,7 +250,7 @@ class Admin extends CI_Controller {
 		
 			
 			
-			// add lead to getcontrol account ... 
+			
 			
 			$source_id = $this->input->post('source_id') ;			
 			$info = '' ; 

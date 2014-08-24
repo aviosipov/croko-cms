@@ -52,10 +52,6 @@ else $route['default_controller'] = "pages/home";
 $route['fbook/(:any)'] = 'fbook';
 $route['users/([\w_-]+)'] = 'users/$1'; 
 
-
-$route['mobile'] = 'mobile';
-$route['mobile/(:any)'] = 'mobile/$1/$2';
-
 $route['cart'] = 'cart/index';
 $route['cart/(:any)'] = 'cart/$1/$2';
 

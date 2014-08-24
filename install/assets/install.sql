@@ -10,7 +10,7 @@
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
--- 
+--   
 -- Database: `crokoco_opencol_4steps`
 --
 
@@ -43,7 +43,7 @@ INSERT INTO `autoresponders` (`autoresponder_id`, `autoresponder_name`, `autores
 
 --
 -- Table structure for table `autoresponder_log`
---
+-- 
 
 CREATE TABLE IF NOT EXISTS `autoresponder_log` (
   `autoresponder_log_id` int(16) NOT NULL AUTO_INCREMENT,
