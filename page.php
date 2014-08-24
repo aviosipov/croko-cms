@@ -1,42 +1,59 @@
-<? $this->load->view('header') ; ?>
+<? $this->load->view('template/head') ; ?>
+
+<body>
+
+    <?=$editor_menu; ?>
+
+    <div class="container">
+        <div class="main-content">
+            <? $this->load->view('template/header') ; ?>
             
             <div class="content">
-                <br/><br/>
                 
-                <div class="pagespace">
-                	
-                    <div class="page-title"><h2><?=$page->title;?></h2></div>
-                    
-     	
-			            
-			            <div id="<?=$page->id;?>" class="editable">
-			            	
-			            	<? if (!$this->Content->get_page_content($page->id)) { ?>
-			            	
-			                    
-			                    <p>כאן ניתן להזין תוכן שיוצג לגולשים, לחצו על המלל לביצוע העריכה. </p>              
-			                
-			                <? } ?>
-			                                        
-			            </div>
+                <div class="pager right">
 
-                        <? if ($page->template) $this->load->view('template/' . $page->template) ;  ?>
+                    <div class="title-hold">
+                        <h2><?=$page->title;?></h2>
+                    </div>
+
+
+                    <div style="width:230px;" class="">
+
+                    <? $file = $this->Content->get_image('page' . $page->id , '/images/pic1.jpg') ; ?> 
+                    <img src="<?=$file;?>" alt="<?=$page->title;?>" class="right croko_widget_image" image-crop-width="230" image-crop-height="220" image-name="page<?=$page->id;?>"  />
+                    </div>
+
+
+
+                    <div id="<?=$page->id;?>" class="editable">
+                    <? if (!$this->Content->get_page_content($page->id)) { ?>       
+
+                        <p>כאן ניתן להזין תוכן שיוצג לגולשים, לחצו על המלל לביצוע העריכה. </p>
+
+                    <? } ?>
+                    </div>
+                    
+                    <? if ($page->template) $this->load->view('template/' . $page->template) ;  ?>
 
                     
                     
                     
-                </div><!-- pagespace -->
+                </div>
+                
+                <? $this->load->view('template/sidebar') ; ?>
                 
                 
-                <? $this->load->view('page-sidebar') ; ?>
+                
                 
                 
             </div><!-- content -->
-            </div><!-- main-content -->
             
-    </div><!-- container -->
-    
-    <? $this->load->view('footer') ; ?>
-    
-
+             <div class="pre-footer"></div>
+             
+            <? $this->load->view('template/footer') ; ?>
            
+            
+        </div><!-- main-content -->
+    </div><!-- container -->
+</body>
+</html>

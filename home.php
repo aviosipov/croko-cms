@@ -1,85 +1,110 @@
-<? $this->load->view('header') ; ?>
+<? $this->load->view('template/head') ; ?>
+
+<body>
+
+    <?=$editor_menu; ?>
+
+    <div class="container">
+        <div class="main-content">
+            <? $this->load->view('template/header') ; ?>
             
             <div class="content">
-                <div class="main-slider">
-                        <div class="fopics">
-                            <? $file = $this->Content->get_image('home-intro' , '/images/pic1.jpg') ; ?>                        
-                            <img src="<?=$file;?>" class="croko_widget_image" image-crop-width="480" image-crop-height="280" image-name="home-intro"  />
-                        </div>
-                        
-                        <div id="home-about" class="abouter editable">
-                    	<? if (!$this->Content->get_content('home-about')) { ?>
-                        	
-                            <h2>כותרת גדולה</h2>
-                            <p class="f14 light1">
-                                כאן ניתן להזין תוכן שיוצג לגולשים בדף הבית, לחצו על המלל לביצוע העריכה. כאן ניתן להזין תוכן שיוצג לגולשים בדף הבית, לחצו על המלל לביצוע העריכה.
-                            </p>
-                            
-                        <? } ?> 
-                        </div>
-                    
+            
+
+                <div id="main-content" class="editable">
+                <? if (!$this->Content->get_content('main-content')) { ?>                        
+
+                <img src="http://lorempixel.com/400/300/business" class="left" />
+
+                <h3 >תחומי עיסוק</h3>
+                <p>כאן ניתן להזין תוכן שיוצג לגולשים, לחצו על המלל לביצוע העריכה. כאן ניתן להזין תוכן שיוצג לגולשים, לחצו על המלל לביצוע העריכה.  כאן ניתן להזין תוכן שיוצג לגולשים, לחצו על המלל לביצוע העריכה. כאן ניתן להזין תוכן שיוצג לגולשים, לחצו על המלל לביצוע העריכה. כאן ניתן להזין תוכן שיוצג לגולשים, לחצו על המלל לביצוע העריכה. כאן ניתן להזין תוכן שיוצג לגולשים, לחצו על המלל לביצוע העריכה. כאן ניתן להזין תוכן שיוצג לגולשים, לחצו על המלל לביצוע העריכה. </p>
+
+
+                <? } ?>
                 </div>
+                    
                 
-                <div class="hmbottom">
-                    <div class="lastupdates">
-                        <div class="boxtitleline">
+                <div class="homebottom">
+                    <div class="third hmthird">
 
-                            <div id="home-right-title" class="editable">
-                            <? if (!$this->Content->get_content('home-right-title')) { ?>                        
+                        <div id="home-bottom" class="editable">
+                        <? if (!$this->Content->get_content('home-bottom')) { ?>        
 
-                            <h3 class="lsup">אודותינו</h3>
-
-
-                            <? } ?> 
-                            </div>
-
-
-                            <div class="dottdivi"></div>
-                        </div>
+                        <h5 class=" firsttitle">אודותינו</h5>
+                        <p>כאן ניתן להזין תוכן שיוצג לגולשים, לחצו על המלל לביצוע העריכה. </p>
                         
-                        <div id="home-right-content" class="editable">
-                        <? if (!$this->Content->get_content('home-right-content')) { ?>                        
-
-                        <p>כאן ניתן להזין תוכן שיוצג לגולשים, לחצו על המלל לביצוע העריכה. כאן ניתן להזין תוכן שיוצג לגולשים בדף הבית, לחצו על המלל לביצוע העריכה.</p>
-
                         <? } ?>
                         </div>
                         
-                        
-                    </div><!-- lastupdates -->
-                    
-                    <div class="newsleta">
-                        <div class="boxtitleline">
+                    </div>
+                    <div class="third hmthird croko_widget"  croko-data-type="articles" croko-data-category="latest-news">
 
-                            <div id="home-left-title" class="editable">
-                            <? if (!$this->Content->get_content('home-left-title')) { ?>                        
+                        <div id="home-latest-news" class="editable" >
+                        <? if (!$this->Content->get_content('home-latest-news')) { ?>        
+                        <h5 class=" secondtitle">עדכונים אחרונים</h5>
+                        <? } ?>
+                        </div>
 
-                            <h3 class="nlsu">דברו איתנו</h3>
+
+                        <ul>
+
+                            <?
+
+                            $article_list = $this->Content->get_article_list(3,'latest-news') ; 
+                            foreach ($article_list->result() as $article) { 
+
+                            ?>                         
+
+                            <li><a href="/articles/<?=$article->id;?>"><?=$article->title;?></a></li>
+
+        
+                            <? } if ($article_list->num_rows ==0) { ?>
+
+                                <li><a href="">עדכון לדוגמה 1</a></li>
+                                <li><a href="">עדכון לדוגמה 2</a></li>
+                                <li><a href="">עדכון לדוגמה 3</a></li>
 
                             <? } ?>
+
+
+
+
+
+                        </ul>
+                    </div>
+                    <div class="third hmthird">
+                        <h5 class=" contacttitle">צור קשר</h5>
+                        <form>
+                            <div class="input-line">
+                                <span class="input-name">שם:</span>
+                                <div class="input-pic"><input type="text" value="" /></div>
                             </div>
-
-                            <div class="dottdivi"></div>
-                        </div>
-
-                        <div id="home-left-content" class="editable">
-                        <? if (!$this->Content->get_content('home-left-content')) { ?>                        
-
-                        <p>כאן ניתן להזין תוכן שיוצג לגולשים, לחצו על המלל לביצוע העריכה. כאן ניתן להזין תוכן שיוצג לגולשים בדף הבית, לחצו על המלל לביצוע העריכה.</p>
-
-                        <? } ?>
-                        </div>
-                        
-                       
-                    </div><!-- newsleta -->
-                    
-                    
-                    
-                </div><!-- hmbottom -->
+                            <div class="input-line">
+                                <span class="input-name">מייל:</span>
+                                <div class="input-pic"><input type="text" value="" /></div>
+                            </div>
+                            <div class="input-line">
+                                <span class="input-name">טלפון:</span>
+                                <div class="input-pic"><input type="text" value="" /></div>
+                            </div>
+                                
+                            <div class="input-line">
+                                <input type="submit" value="שלח" class="btn input-btn left"/>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                
+                
+                
             </div><!-- content -->
-            </div><!-- main-content -->
+            
+             <div class="pre-footer"></div>
+             
+            <? $this->load->view('template/footer') ; ?>
+           
+            
+        </div><!-- main-content -->
     </div><!-- container -->
-    
-    <? $this->load->view('footer') ; ?>
-    
-    
+</body>
+</html>

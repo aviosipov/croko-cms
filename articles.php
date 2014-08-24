@@ -1,52 +1,73 @@
-<? $this->load->view('header') ; ?>
+<? $this->load->view('template/head') ; ?>
+
+<body>
+
+    <?=$editor_menu; ?>
+
+
+    <div class="container">
+        <div class="main-content">
+
+            <? $this->load->view('template/header') ; ?>
             
             <div class="content">
-                <br/><br/>
                 
-                <div class="pagespace">
-                	
-                    <div class="page-title"><h2>עדכונים</h2></div>
-                    
-                    <br><br>
-                    
-     	
-			            
-                	<? foreach ($article_list->result() as $article) { ?>
-                	
-                	
-                    <div class="artic">
-                    
-                        <h4><a href="/articles/<?=$article->id;?>"><?=$article->title;?></a></h4>
-                    
-                        <div class="short-head">
-                            <p><?=mb_substr( strip_tags ( $article->content ) , 0 , 500 );?></p>
-                            <a href="/articles/<?=$article->id;?>" class="btn arti-btn">קרא עוד</a>
+                <div class="pager right">
+                    <div class="title-hold">
+
+                        <div id="articles-title" class="editable">
+                        <? if (!$this->Content->get_content('articles-title')) { ?>                        
+
+                        <h2>מאמרים</h2>
+
+                        <? } ?>
                         </div>
-                        
+
+
                     </div>
-                    
+
+                    <? foreach ($article_list->result() as $article) { ?> 
+
+                    <div class="articleblock">
+                        <div class="articleimg">
+
+                            <? if ($article->img) $img = '/gallery/' .  $article->img;  
+                            else $img =  'http://placehold.it/162x84' ; ?>                    
+
+                            <a href="/articles/<?=$article->id;?>"><img alt="" src="<?=$img;?>"/></a> 
+                        </div>
+                        <a href="/articles/<?=$article->id;?>" class="homeblocktitle"><?=$article->title;?></a>
+                        <p><strong><?=$this->Content->get_article_short($article->id);?></strong></p>
+                        <a href="/articles/<?=$article->id;?>" class="btn turkiz">קרא עוד</a>
+                    </div>
+
                     <? } 
                     
+                        
+                  if ($article_list->num_rows == 0) { ?> 
 
-              if ($article_list->num_rows == 0) { ?> 
+                  <p>נראה שעוד לא נוספו מאמרים לאתר, לחצו על לחצן "מאמרים" להוספת מאמר חדש.</p>
 
-              <p>נראה שעוד לא נוספו מאמרים לאתר, לחצו על לחצן "מאמרים" להוספת מאמר חדש.</p>
-
-              <? } ?>                    
+                  <? } ?>                    
                     
                     
-                </div><!-- pagespace -->
+                </div>
+                
+                <? $this->load->view('template/sidebar') ; ?>
                 
                 
-                <? $this->load->view('page-sidebar') ; ?>
+                
                 
                 
             </div><!-- content -->
-            </div><!-- main-content -->
             
-    </div><!-- container -->
-    
-    <? $this->load->view('footer') ; ?>
-    
-
+             <div class="pre-footer"></div>
+             
+            
+            <? $this->load->view('template/footer') ; ?>
            
+            
+        </div><!-- main-content -->
+    </div><!-- container -->
+</body>
+</html>

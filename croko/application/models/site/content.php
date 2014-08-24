@@ -367,7 +367,6 @@ class Content extends CI_Model {
 
 		if ($cat_id) {
 
-
 			$aritcle_cat = $this->get_article_category($cat_id) ; 			
 		 	$this->db->where('articles.article_category_id',$aritcle_cat->id) ;
 
@@ -375,7 +374,10 @@ class Content extends CI_Model {
 
 		
 		
-        $this->db->select ('*' )  ;		
+        
+        $this->db->select ('articles.id,articles.url,articles.title,articles.short,articles.content,articles.img,articles.published, article_categories.title AS cat ,password,custom1,custom2,
+        custom3,custom4 , created , updated' )  ;		
+
 
         if ($published != 'all') $this->db->where('published',$published) ;
 
@@ -387,8 +389,7 @@ class Content extends CI_Model {
 
         /// get category 
 
-        
-
+       
         
 		$this->db->where('articles.site_id', $this->config->item('site_id') ) ;
 				
@@ -645,7 +646,6 @@ class Content extends CI_Model {
 
 	    $this->db->where('id', $id);
 		$this->db->where('site_id', $this->config->item('site_id') ) ;
-
 		
         $this->db->delete('articles');
 

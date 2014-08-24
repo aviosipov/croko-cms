@@ -1,53 +1,53 @@
-<? $this->load->view('header') ; ?>
+<? $this->load->view('template/head') ; ?>
+
+<body>
+
+    <?=$editor_menu; ?>
+
+    <div class="container">
+        <div class="main-content">
+            <? $this->load->view('template/header') ; ?>
             
             <div class="content">
-                <br/><br/>
                 
-                <div class="pagespace">
-                	
-                    <div class="page-title"><h2><?=$article->title;?></h2></div>
+                <div class="pager right">
+                    <div class="title-hold">
+                        <h2><?=$article->title;?></h2>
+                    </div>
                     
-     	
-			            
-	                <div id="<?=$article->id;?>" class="editable">
-	            	<? if (!$this->Content->get_article_content($article->id)) { ?>
-	        			
-	
-		                <p>
-		                יש לכתוב תוכן למאמר.
-		                </p>
-	                    
-	                    
-	                <? } ?> 
-	                </div>
+                    <div style="width:230px;" class="">
 
+                    <? $file = $this->Content->get_image('article' . $article->id , '/images/pic1.jpg') ; ?> 
+                    <img src="<?=$file;?>" alt="<?=$article->title;?>" class="right croko_widget_image" image-crop-width="230" image-crop-height="220" image-name="article<?=$article->id;?>"  />
+                    </div>                    
 
+                    <div id="<?=$article->id;?>" class="editable">
+                    <? if (!$this->Content->get_article_content($article->id)) { ?>       
+
+                    <p>כאן ניתן להזין תוכן שיוצג לגולשים, לחצו על המלל לביצוע העריכה. </p>                    
+
+                    <? } ?>
+                    </div> 
+                    
+              
                     
                     
-                    
-                </div><!-- pagespace -->
+                </div>
+                
+                <? $this->load->view('template/sidebar') ; ?>
                 
                 
-                <? $this->load->view('page-sidebar') ; ?>
+                
                 
                 
             </div><!-- content -->
-            </div><!-- main-content -->
             
-            <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) {return;}
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-<div class="fb-comments" data-href="http://shefa.org.il/articles/<?=$article->id;?>" data-num-posts="2" data-width="626"></div>
-            
-    </div><!-- container -->
-    
-    <? $this->load->view('footer') ; ?>
-    
-
+             <div class="pre-footer"></div>
+             
+            <? $this->load->view('template/footer') ; ?>
            
+            
+        </div><!-- main-content -->
+    </div><!-- container -->
+</body>
+</html>

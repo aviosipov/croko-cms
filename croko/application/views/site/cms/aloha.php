@@ -286,7 +286,7 @@ initJQuery();
 	    jQuery("#myform2").validate( );
 	    jQuery("#myform3").validate( );
 	    jQuery("#myform4").validate( );
-	    jQuery("#contact-form").validate( ); 
+	    jQuery(".contact-form").validate( ); 
 	
 	    
 		<? if ($site->language=='he') { ?>

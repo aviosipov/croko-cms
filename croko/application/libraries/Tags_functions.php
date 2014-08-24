@@ -309,7 +309,7 @@ class Tags_functions extends Posts_parser
 		<img src="http://getcontrol.co.il/images/cms/helpers/refresh.jpg" width="15" alt="" id="refresh">
  	</label>
 	<img src="/admin/services/captcha" alt="" id="captcha" />
-
+	<br/>
 	
 	<label>
 	קוד אימות

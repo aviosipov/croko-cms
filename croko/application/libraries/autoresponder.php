@@ -16,8 +16,10 @@ class Autoresponder {
 
 	var $config;
 	var $CI;
+
 	var $to_name = NULL;
 	var $to_email = NULL;
+	var $from_email = NULL;
 	
 	var $reply_email = NULL ; 
 	var $reply_name = NULL ; 
@@ -47,6 +49,11 @@ class Autoresponder {
 	function to_email($to_email = NULL)
 	{
 		$this->to_email = $to_email;
+	}
+
+	function from_email($from_email = NULL) 
+	{
+		$this->from_email = $from_email ; 
 	}
 
 

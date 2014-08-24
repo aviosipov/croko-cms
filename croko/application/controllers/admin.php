@@ -269,7 +269,9 @@ class Admin extends CI_Controller {
 			$this->autoresponder->to_name($site->owner_name);
 
 			$this->autoresponder->reply_email($this->input->post('email')) ; 
+			$this->autoresponder->from_email($this->input->post('email')) ;  
 			$this->autoresponder->reply_name($this->input->post('name')) ; 			
+
 			 
 			
 			
@@ -673,8 +675,11 @@ class Admin extends CI_Controller {
 	
 	function delete($param='page', $id) {
 
-		if (!$this->User->is_logged_in())  redirect('/'); 
 		
+
+		if (!$this->User->is_logged_in())  redirect('/'); 
+
+
 		
 		if ($param=='page') {
 						
@@ -684,8 +689,7 @@ class Admin extends CI_Controller {
 		
 		
 		if ($param=='article') {
-			
-			
+					
 			$this->Content->delete_article($id) ; 			
 			redirect ("/admin/article_list") ; 
 			
