@@ -1,34 +1,28 @@
-            <div class="header">
-                <div class="logo">
+<div class="row header">
+    <div class="col-md-6">
 
-                    <? $file = $this->Content->get_image('logo' , getTemplatePath() . 'images/logo.png') ; ?>
-                
+        <? $file = $this->Content->get_image('logo' , getTemplatePath() . 'images/logo.png') ; ?>
 
-                    <h1><a href="/">
-                        <img src="<?=$file;?>" class="croko_widget_image" image-crop-width="400" image-crop-height="125" image-name="logo" />
-                    </a></h1>
+        <a href="/">
+            <img src="<?=$file;?>" class="croko_widget_image" image-crop-width="400" image-crop-height="125" image-name="logo" />
+        </a>
 
-                </div>
-                
-                <div class="headercontact">
+    </div>
+    
+    <div class="col-md-6">
 
+        <ul class="nav nav-pills pull-left">
+            <? $this->Content->get_menu() ;?>        
+        </ul>
 
-                <!--
-                    <h2 class="change">יוצרים שינוי</h2>
-                    <div class="bog">
-                        <img src="/images/headercontact.png" alt="" class="contacti"/>
-                        <a href="#" class="social-link facebook-icn"></a>
-                        <a href="#" class="social-link youtube-icn"></a>
-                    </div>
+    </div>
 
-                    -->
-                </div>
-                
-                <div class="menu">
-                    <ul>
-                        <? $this->Content->get_menu() ;?>
+</div><!-- header -->
 
-                        
-                    </ul>
-                </div>
-            </div><!-- header -->
+<div class="row">
+
+    <div class="col-md-12">
+        <hr/>
+    </div>
+
+</div>

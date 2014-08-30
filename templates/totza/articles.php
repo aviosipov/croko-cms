@@ -6,68 +6,65 @@
 
 
     <div class="container">
-        <div class="main-content">
+    
+        <? $this->load->view('template/header') ; ?>
 
-            <? $this->load->view('template/header') ; ?>
-            
-            <div class="content">
-                
-                <div class="pager right">
-                    <div class="title-hold">
+        <div class="row main-content">
 
-                        <div id="articles-title" class="editable">
-                        <? if (!$this->Content->get_content('articles-title')) { ?>                        
+            <div class="col-md-9">
+                  
 
-                        <h2>מאמרים</h2>
+                <div id="articles-title" class="editable">
+                <? if (!$this->Content->get_content('articles-title')) { ?>                        
 
-                        <? } ?>
-                        </div>
+                    <h2>מאמרים</h2>
 
-
-                    </div>
-
-                    <? foreach ($article_list->result() as $article) { ?> 
-
-                    <div class="articleblock">
-                        <div class="articleimg">
-
-                            <? if ($article->img) $img = '/gallery/' .  $article->img;  
-                            else $img =  'http://placehold.it/162x84' ; ?>                    
-
-                            <a href="/articles/<?=$article->id;?>"><img alt="" src="<?=$img;?>"/></a> 
-                        </div>
-                        <a href="/articles/<?=$article->id;?>" class="homeblocktitle"><?=$article->title;?></a>
-                        <p><strong><?=$this->Content->get_article_short($article->id);?></strong></p>
-                        <a href="/articles/<?=$article->id;?>" class="btn turkiz">קרא עוד</a>
-                    </div>
-
-                    <? } 
-                    
-                        
-                  if ($article_list->num_rows == 0) { ?> 
-
-                  <p>נראה שעוד לא נוספו מאמרים לאתר, לחצו על לחצן "מאמרים" להוספת מאמר חדש.</p>
-
-                  <? } ?>                    
-                    
-                    
+                <? } ?>
                 </div>
+
+            
+                <? foreach ($article_list->result() as $article) { ?> 
+
+                <div class="article">
+                    
+
+                    <? if ($article->img) $img = '/gallery/' .  $article->img;  
+                    else $img =  'http://placehold.it/162x84' ; ?>                    
+
+                    <a href="/articles/<?=$article->id;?>"><img alt="" src="<?=$img;?>" class="pull-right" /></a> 
+                    
+                    <a href="/articles/<?=$article->id;?>" class="homeblocktitle strong"><?=$article->title;?></a>
+                    <p><?=$this->Content->get_article_short($article->id);?></p>
+                    <a href="/articles/<?=$article->id;?>" class="">קרא עוד</a>
+
+                </div>
+
+                <? } 
                 
+                    
+              if ($article_list->num_rows == 0) { ?> 
+
+              <p>נראה שעוד לא נוספו מאמרים לאתר, לחצו על לחצן "מאמרים" להוספת מאמר חדש.</p>
+
+              <? } ?>                 
+                
+            </div>
+            <div class="col-md-3">
                 <? $this->load->view('template/sidebar') ; ?>
-                
-                
-                
-                
-                
-            </div><!-- content -->
+            </div>
             
-             <div class="pre-footer"></div>
-             
+        </div>
+
+
+        
+
             
-            <? $this->load->view('template/footer') ; ?>
+            
+            
+        <? $this->load->view('template/footer') ; ?>
            
             
-        </div><!-- main-content -->
+        
     </div><!-- container -->
 </body>
 </html>

@@ -1,22 +1,32 @@
-            <div class="footer">
-                <hr/>
-                <div class="left foot-social">
-                    
-                    
+<div class="row">
+
+    <div class="col-md-12">
+        <hr/>
+    </div>
+
+</div>
+
+<div class="row">
+    
+
+    <div class="col-md-8">
+    
+        <ul class="list-inline">
+        <? $this->Content->get_menu_flat('') ; ?>
+        </ul>
+        
+    </div>
+    <div class="col-md-4 ">
+
+        <div class="pull-left">
+
                     <a href="http://www.logoinstant.com" title="Free Logo">Free Logo from LogoInstant</a>
                     &nbsp;&nbsp;|&nbsp;&nbsp;
-                    הוקם באמצעות <a href="http://croko.co.il"> Croko </a> 
+                    הוקם באמצעות <a href="http://croko.co.il"> Croko </a>         
 
-                </div>
-                <div class="foot-links">
-                <ul>
+        </div>
+    </div>
 
-                    <? $this->Content->get_menu_flat('<span>|</span>') ; ?>
 
-                    
-                </ul>
-                </div>
-            
-            
-            
-            </div><!-- footer -->
+</div>
+

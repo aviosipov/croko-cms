@@ -892,7 +892,7 @@ class Content extends CI_Model {
 
 
 	
-	function get_mobile_menu ($span = '' , $current = 'current' , $force_active = '') {
+	function get_mobile_menu ($span = '' , $current = 'active' , $force_active = '') {
 		
 		// $force_active is used for setting and active menu 'by force' and
 		// ignore the current url 
@@ -968,7 +968,7 @@ class Content extends CI_Model {
 	
 	
 	
-	function get_menu ($span = '' , $current = 'current' , $force_active = '') {
+	function get_menu ($span = '' , $current = 'active' , $force_active = '') {
 		
 		// $force_active is used for setting and active menu 'by force' and
 		// ignore the current url 
