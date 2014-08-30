@@ -17,7 +17,7 @@
                     
                     <div style="width:230px;" class="">
 
-                    <? $file = $this->Content->get_image('article' . $article->id , '/images/pic1.jpg') ; ?> 
+                    <? $file = $this->Content->get_image('article' . $article->id , getTemplatePath() .'images/pic1.jpg') ; ?> 
                     <img src="<?=$file;?>" alt="<?=$article->title;?>" class="right croko_widget_image" image-crop-width="230" image-crop-height="220" image-name="article<?=$article->id;?>"  />
                     </div>                    
 

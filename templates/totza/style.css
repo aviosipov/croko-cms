@@ -7,7 +7,7 @@ html, body, a, p, span, ul, li, h1, h2, h3, h4, h5, div, img, table, tr, td, ul,
 html {
     direction: rtl;
     text-align: right;
-    font-size: 12px;
+    font-size: 14px;
     font-family: Arial, Tahoma, sans-serif;
     color:#25292f;
 }

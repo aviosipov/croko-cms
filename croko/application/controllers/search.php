@@ -48,7 +48,7 @@ class Search extends CI_Controller {
 
 		 
 		if ($site->template==1) $this->load->view('papa/articles',$data);
-		else $this->load->external_view( "./" , 'articles',$data);
+		else $this->load->external_view( "./templates/$site->template/" , 'articles',$data);
 
 
 		

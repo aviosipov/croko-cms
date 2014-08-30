@@ -51,7 +51,7 @@ class Galleries extends CI_Controller {
 		
 
 		if ($site->template==1) $this->load->view('papa/gallery',$data);
-		else $this->load->external_view( "./" , 'gallery',$data);		
+		else $this->load->external_view( "./templates/$site->template/" , 'gallery',$data);		
 
 	}
 
@@ -92,7 +92,7 @@ class Galleries extends CI_Controller {
 
 
 		if ($site->template==1) $this->load->view('papa/gallery-list',$data);
-		else $this->load->external_view( "./" , 'gallery-list',$data);		
+		else $this->load->external_view( "./templates/$site->template/" , 'gallery-list',$data);		
 
 
 	}
@@ -112,7 +112,7 @@ class Galleries extends CI_Controller {
 		$data['editor_menu'] = $this->load->view('site/cms/editor-menu',0,true) ;
 		
 		$this->load->view('site/cms/block-editor') ;				
-		$this->load->external_view( "./" , 'gallery',$data);
+		$this->load->external_view( "./templates/$site->template/" , 'gallery',$data);
 		
 
 		

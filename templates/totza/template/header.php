@@ -1,7 +1,7 @@
             <div class="header">
                 <div class="logo">
 
-                    <? $file = $this->Content->get_image('logo' , '/images/logo.png') ; ?>
+                    <? $file = $this->Content->get_image('logo' , getTemplatePath() . 'images/logo.png') ; ?>
                 
 
                     <h1><a href="/">

@@ -7,6 +7,7 @@ class Pages extends CI_Controller {
 	{
 		
 		parent::__construct();		
+
 		$this->load->library('posts_parser');
 		$this->load->model('site/Newsm') ;
 		
@@ -84,7 +85,7 @@ class Pages extends CI_Controller {
 		 
 		
 		if ($site->template==1) $this->load->view('papa/page',$data);
-		else $this->load->external_view( "./" , 'page',$data);
+		else $this->load->external_view( "./templates/$site->template/"  , 'page',$data);
 		
 		
 		
@@ -124,7 +125,7 @@ class Pages extends CI_Controller {
 		$this->load->view('site/cms/page-block-editor') ;		
 		
 		if ($site->template==1) $this->load->view('papa/home',$data);
-		else $this->load->external_view( "./" , 'home',$data);
+		else $this->load->external_view( "./templates/$site->template/" , 'home',$data);
 		
 		
 		
@@ -167,7 +168,7 @@ class Pages extends CI_Controller {
 
 
 		if ($site->template==1) $this->load->view('papa/page',$data);
-		else $this->load->external_view( "./" , 'page',$data);
+		else $this->load->external_view( "./templates/$site->template/" , 'page',$data);
 
 
 

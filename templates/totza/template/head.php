@@ -9,7 +9,7 @@
     <meta name="description" content="<?=$meta_description;?>" />
     <meta name="keywords" content="<?=$meta_keywords;?>" />    
 
-    <link href="/style.css" rel="stylesheet" type="text/css" /> 
+    <link href="<?=getTemplatePath();?>style.css" rel="stylesheet" type="text/css" /> 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
 

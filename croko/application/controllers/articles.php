@@ -57,7 +57,7 @@ class Articles extends CI_Controller {
 
 		
 		$this->load->view('site/cms/block-editor') ;								
-		$this->load->external_view( "./" , 'article-cat-gallery',$data);
+		$this->load->external_view( "./templates/$site->template/" , 'article-cat-gallery',$data);
 			
 	
 
@@ -90,7 +90,7 @@ class Articles extends CI_Controller {
 
 
 		$this->load->view('site/cms/article-editor') ;				
-		$this->load->external_view( "./" , 'article-gallery',$data);
+		$this->load->external_view( "./templates/$site->template/" , 'article-gallery',$data);
 			
 	
 	
@@ -128,7 +128,7 @@ class Articles extends CI_Controller {
 						
 		
 		if ($site->template==1) $this->load->view('papa/articles',$data);
-		else $this->load->external_view( "./" , 'articles',$data);
+		else $this->load->external_view( "./templates/$site->template/" , 'articles',$data);
 		
 		
 		
@@ -178,7 +178,7 @@ class Articles extends CI_Controller {
 		
 		
 		if ($site->template==1) $this->load->view('papa/article',$data);
-		else $this->load->external_view( "./" , 'article',$data);
+		else $this->load->external_view( "./templates/$site->template/" , 'article',$data);
 		
 
 		
@@ -212,7 +212,7 @@ class Articles extends CI_Controller {
 
 		 
 		if ($site->template==1) $this->load->view('papa/articles',$data);
-		else $this->load->external_view( "./" , 'articles',$data);
+		else $this->load->external_view( "./templates/$site->template/" , 'articles',$data);
 
 
 

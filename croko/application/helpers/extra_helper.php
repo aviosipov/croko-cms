@@ -4,7 +4,14 @@
 	if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 
+function getTemplatePath() {
 
+	$CI =& get_instance(); 
+
+	$site = $CI->Content->get_site() ; 
+	return '/templates/' . $site->template . '/' ; 
+
+}
 
 function tidyHTML($html) {
 

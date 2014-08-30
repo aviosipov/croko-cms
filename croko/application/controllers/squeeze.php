@@ -25,7 +25,7 @@ class Squeeze extends CI_Controller {
 		$data['editor_menu'] = $this->load->view('site/cms/editor-menu',0,true) ; 						
 
 		$this->load->view('site/cms/block-editor') ; 
-		$this->load->external_view( "./" , "/squeeze/$page",$data);
+		$this->load->external_view( "./templates/$site->template/" , "/squeeze/$page",$data);
 		 
 
 		

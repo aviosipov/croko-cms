@@ -55,7 +55,7 @@ class Cart extends CI_Controller {
 		 
 		
 		if ($site->template==1) $this->load->view('papa/cart',$data);
-		else $this->load->external_view( "./" , 'cart',$data);
+		else $this->load->external_view( "./templates/$site->template/" , 'cart',$data);
 		
 				 
 

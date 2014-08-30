@@ -307,7 +307,7 @@ CREATE TABLE IF NOT EXISTS `sites` (
 --
 
 INSERT INTO `sites` (`id`, `name`, `owner_name`, `description`, `contact_email`, `meta_title`, `meta_keywords`, `meta_description`, `online`, `site_url`, `google_analytics_code`, `head_scripts`, `thanks_scripts`, `logo`, `language`, `template`, `template_style`, `design_settings`, `mobile_settings`, `created`, `updated`, `status`, `reseller_id`, `username`, `password`) VALUES
-(1, 'האתר החדש שלי!', 'מנהל אתר', '0', 'your@email.com', '', '', '', 1, '', '', '', '', '', 'he', '0', '', '', '', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'active', '', 'admin', '21232f297a57a5a743894a0e4a801fc3');
+(1, 'האתר החדש שלי!', 'מנהל אתר', '0', 'your@email.com', '', '', '', 1, '', '', '', '', '', 'he', 'totza', '', '', '', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'active', '', 'admin', '21232f297a57a5a743894a0e4a801fc3');
 
 -- --------------------------------------------------------
 
