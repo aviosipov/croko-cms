@@ -42,9 +42,15 @@ li.active , li.active a {
 }
 
 h1,h2,h3,h4 {
+
 	margin-bottom: 14px;
-	font-weight: bold;
-    color: rgb(111, 111, 111) ; 
+    font-weight: normal;
+    color : rgb(77, 135, 168) ;     
+
+}
+
+h4 {
+    color: rgb(77, 155, 207);
 }
 
 img.pull-right {
@@ -61,8 +67,30 @@ img.pull-right {
 
 }
 
+
+.glyphicon {
+
+    color : rgb(77, 135, 168) ;     
+}
+
+
+
+
+.main-content h2 {
+    margin-bottom: 25px;
+}
+
 .article {
     width: 100%;
-    margin-bottom: 45px;
+    margin-bottom: 65px;
     clear: both;
+}
+
+p.article-body {
+    margin-top: 6px;
+}
+
+.sidebar {
+
+    margin-top: 20px;
 }

@@ -33,9 +33,9 @@
 
                     <a href="/articles/<?=$article->id;?>"><img alt="" src="<?=$img;?>" class="pull-right" /></a> 
                     
-                    <a href="/articles/<?=$article->id;?>" class="homeblocktitle strong"><?=$article->title;?></a>
-                    <p><?=$this->Content->get_article_short($article->id);?></p>
-                    <a href="/articles/<?=$article->id;?>" class="">קרא עוד</a>
+                    <a href="/articles/<?=$article->id;?>" class="article-title"><?=$article->title;?></a>
+                    <p class="article-body"><?=$this->Content->get_article_short($article->id);?> <a href="/articles/<?=$article->id;?>" class="">קרא עוד</a></p>
+                    
 
                 </div>
 

@@ -47,8 +47,8 @@
 
                     <div id="home-bottom-right" class="editable">
                     <? if (!$this->Content->get_content('home-bottom-right')) { ?>        
-
-                    <h4>כותרת</h4>
+                    
+                    <h4>כותרת <span class="glyphicon glyphicon-save pull-left"></span></h4>
                     <p>כאן ניתן להזין תוכן שיוצג לגולשים, לחצו על המלל לביצוע העריכה. </p>
                     
                     <? } ?>
@@ -61,7 +61,7 @@
                     <div id="home-bottom-center" class="editable">
                     <? if (!$this->Content->get_content('home-bottom-center')) { ?>        
 
-                    <h4>כותרת</h4>
+                    <h4>כותרת <span class="glyphicon glyphicon-question-sign pull-left"></span> </h4>
                     <p>כאן ניתן להזין תוכן שיוצג לגולשים, לחצו על המלל לביצוע העריכה. </p>
                     
                     <? } ?>
@@ -74,7 +74,7 @@
 
                     <div id="home-latest-news" class="editable" >
                     <? if (!$this->Content->get_content('home-latest-news')) { ?>        
-                    <h4>עדכונים אחרונים</h4>
+                    <h4>עדכונים אחרונים <span class="glyphicon glyphicon-th-list pull-left"></span></h4>
                     <? } ?>
                     </div>
 
