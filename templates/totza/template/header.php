@@ -1,17 +1,18 @@
 <div class="row header">
-    <div class="col-md-6">
+    <div class="col-md-5 logo">
 
-        <? $file = $this->Content->get_image('logo' , getTemplatePath() . 'images/logo.png') ; ?>
+        <? $file = $this->Content->get_logo(0 , 'http://placehold.it/350x95/ffffff/9B9B9B/&text=logo(350x95)') ; ?>
+
 
         <a href="/">
-            <img src="<?=$file;?>" class="croko_widget_image" image-crop-width="400" image-crop-height="125" image-name="logo" />
+            <img src="<?=$file;?>"  class="img-responsive" image-name="logo" />
         </a>
 
     </div>
     
-    <div class="col-md-6">
+    <div class="col-md-7">
 
-        <ul class="nav nav-pills pull-left">
+        <ul class="nav nav-pills pull-left visible-lg visible-md ">
             <? $this->Content->get_menu() ;?>        
         </ul>
 

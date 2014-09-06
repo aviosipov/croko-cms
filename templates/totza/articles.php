@@ -17,36 +17,13 @@
                 <div id="articles-title" class="editable">
                 <? if (!$this->Content->get_content('articles-title')) { ?>                        
 
-                    <h2>מאמרים</h2>
+                    <h1>מאמרים</h1>
 
                 <? } ?>
                 </div>
 
-            
-                <? foreach ($article_list->result() as $article) { ?> 
-
-                <div class="article">
-                    
-
-                    <? if ($article->img) $img = '/gallery/' .  $article->img;  
-                    else $img =  'http://placehold.it/162x84' ; ?>                    
-
-                    <a href="/articles/<?=$article->id;?>"><img alt="" src="<?=$img;?>" class="pull-right" /></a> 
-                    
-                    <a href="/articles/<?=$article->id;?>" class="article-title"><?=$article->title;?></a>
-                    <p class="article-body"><?=$this->Content->get_article_short($article->id);?> <a href="/articles/<?=$article->id;?>" class="">קרא עוד</a></p>
-                    
-
-                </div>
-
-                <? } 
+                <? $this->load->view('template/article-list') ; ?>
                 
-                    
-              if ($article_list->num_rows == 0) { ?> 
-
-              <p>נראה שעוד לא נוספו מאמרים לאתר, לחצו על לחצן "מאמרים" להוספת מאמר חדש.</p>
-
-              <? } ?>                 
                 
             </div>
             <div class="col-md-3">

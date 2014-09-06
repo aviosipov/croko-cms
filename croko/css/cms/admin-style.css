@@ -186,3 +186,12 @@ img.croko_widget_settings {
     padding: 0px; 
     position: relative;
 }
+
+.cms-button {
+    
+    height: 100%;
+    width: 88px;
+    font-size: 15px;
+    font-weight:normal;     
+    
+}

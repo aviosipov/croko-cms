@@ -1,6 +1,7 @@
 <? $this->load->view('template/head') ; ?>
 
 <body>
+    
 
     <?=$editor_menu; ?>
 
@@ -12,15 +13,15 @@
 
             <div class="col-md-9">
 
-                <div class="title-hold">
-                    <h2><?=$article->title;?></h2>
-                </div>
-                
-                <div style="width:230px;" class="">
 
-                <? $file = $this->Content->get_image('article' . $article->id , getTemplatePath() .'images/pic1.jpg') ; ?> 
-                <img src="<?=$file;?>" alt="<?=$article->title;?>" class="pull-right croko_widget_image" image-crop-width="230" image-crop-height="220" image-name="article<?=$article->id;?>"  />
-                </div>                    
+                <? if ($article->img) { ?> 
+                    <img title="<?=$article->title;?>" class="pull-right" src="/gallery/<?=$article->img;?>" alt="<?=$article->title;?>" />
+                <? } ?>
+
+                
+                <h1><?=$article->title;?></h1>
+                
+                
 
                 <div id="<?=$article->id;?>" class="editable">
                 <? if (!$this->Content->get_article_content($article->id)) { ?>       
@@ -35,6 +36,8 @@
             <div class="col-md-3">
 
                 <? $this->load->view('template/sidebar') ; ?>
+
+                
                 
             </div>
 

@@ -30,7 +30,7 @@ CKEDITOR.editorConfig = function( config ) {
 	// need to have in the Standard(s) toolbar.
 	config.removeButtons = 'Underline,Subscript,Superscript';
 	config.uiColor = '#F1F1F1' ;
-
+	config.extraPlugins = 'insertpre';
 
 	config.coreStyles_italic =
     {

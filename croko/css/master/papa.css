@@ -18,7 +18,7 @@ label.error {
 input,select {
 	
 
-	border: 1px solid #333333;
+/*	border: 1px solid #333333; */ 
 	margin-bottom: 3px;
 	width: 185px;
 	padding-right: 2px;

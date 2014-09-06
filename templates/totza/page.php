@@ -13,14 +13,13 @@
             <div class="col-md-9">
             
                 
-                <h2><?=$page->title;?></h2>
+                <? if ($page->img) { ?> 
+                    <img title="<?=$page->title;?>" class="pull-right" src="/gallery/<?=$page->img;?>" alt="<?=$page->title;?>" />
+                <? } ?>
+
+                <h1><?=$page->title;?></h1>
                 
-                <? $file = $this->Content->get_image('page' . $page->id , getTemplatePath() .'images/pic1.jpg') ; ?> 
-                <img src="<?=$file;?>" alt="<?=$page->title;?>" class="pull-right croko_widget_image" image-crop-width="230" image-crop-height="220" image-name="page<?=$page->id;?>"  />
                 
-
-
-
                 <div id="<?=$page->id;?>" class="editable">
                 <? if (!$this->Content->get_page_content($page->id)) { ?>       
 
@@ -37,9 +36,8 @@
             </div>
 
             <div class="col-md-3">
-
+                
                 <? $this->load->view('template/sidebar') ; ?>
-
                 
             </div>
 

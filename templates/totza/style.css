@@ -1,17 +1,54 @@
 body {
     background: #f5f5f5;
+    font-size: 15px;
 }
 
+.row.header {
+    height: 99px;
+}
+
+pre {
+    
+    text-align: left;
+    direction: ltr; 
+}
+
+.logo img {
+    height: 95px;
+}
+
+.col-md-5.logo {
+    height: 99px;
+}
+
+
+.address-block.form-control {
+    width: 100%;
+    text-align: left;
+    /* height: 50px; */
+    padding: 11px 12px 44px 10px;
+}
+
+
+.container {
+    margin-top: 18px;
+}
+
+.main-content h1 {
+    margin-bottom: 35px;
+    font-size: 38px;
+}
 .header ul {
     
     /* margin-top: 80px; */
     position: absolute;
     left: 0px;
-    top: 99px;    
+    top: 73px;    
 }
 
 p {
     color: rgb(92, 92, 92);
+    margin-bottom: 15px; 
 }
 
 hr {
@@ -22,13 +59,15 @@ hr {
 }
 
 .row.main-content {
+
     min-height: 380px;
+    margin-bottom: 54px; 
 }
 
 .list-unstyled li {
     border-bottom: 1px dotted rgb(202, 202, 202);
-    margin-bottom: 4px;
-    padding-bottom: 2px;    
+    margin-bottom: 5px;
+    padding-bottom: 8px;    
 }
 
 li.active , li.active a {
@@ -46,7 +85,10 @@ h1,h2,h3,h4 {
 	margin-bottom: 14px;
     font-weight: normal;
     color : rgb(77, 135, 168) ;     
+}
 
+.panel-primary .panel-heading h3 {
+    color: white;
 }
 
 h4 {
@@ -62,7 +104,7 @@ img.pull-right {
 
 .widget {
     
-    margin-bottom: 32px;
+    margin-bottom: 38px;
 
 
 }
@@ -82,8 +124,9 @@ img.pull-right {
 
 .article {
     width: 100%;
-    margin-bottom: 65px;
+    margin-bottom: 25px;
     clear: both;
+    border-bottom: 1px dashed rgb(208, 211, 226);
 }
 
 p.article-body {
@@ -94,3 +137,47 @@ p.article-body {
 
     margin-top: 20px;
 }
+
+
+.action {
+
+    font-weight: normal;
+    font-size: 16px;
+    width: 200px;
+    border: none;
+    margin-left: 15px;
+    margin-bottom: 12px;
+}
+
+
+.primary-color {
+    
+    
+    background-color: rgb(71, 151, 182);
+    
+}
+
+.secondary-color {
+    background-color: rgb(219, 219, 219);
+    color: rgb(111, 111, 111);
+    
+}
+
+.widget h4 { 
+
+    margin-bottom: 18px; 
+
+}
+
+.panel-title {
+
+    font-size: 20px;
+    color: rgb(226, 85, 6) ;
+
+}
+
+input#contact-url {
+
+    text-align: left;
+    
+} 
