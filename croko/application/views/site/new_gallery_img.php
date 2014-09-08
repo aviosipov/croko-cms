@@ -10,7 +10,7 @@
 		</div>
 
 		<div class="left">			
-			<a class="btn action-button toggle-button" title="הוסף תמונות לגלריה" >הוסף תמונות לגלריה</a>	
+			<a class="btn action-button toggle-button" title="הוסף תמונות לגלריה" >הוסף תמונה</a>	
 		</div> 
 		
 	</div>

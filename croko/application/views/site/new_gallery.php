@@ -74,7 +74,7 @@
 					<? 
 					$img = '' ; 
 					if ($gallery->gallery_thumb ) $img = '/gallery/' . $gallery->gallery_thumb ; 
-					if ($img == '') $img = 'http://buildinternet.s3.amazonaws.com/projects/mosaic/desroches.jpg' ; 
+					if ($img == '') $img = 'http://dummyimage.com/400x250/d4d4d4/0011ff&text=+' ; 
 					
 					?>
 						

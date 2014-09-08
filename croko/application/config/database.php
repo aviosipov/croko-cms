@@ -40,7 +40,7 @@ $active_record = TRUE;
 
 // The following values will probably need to be changed.
 $db['default']['username'] = "crokoco_basedb";
-$db['default']['password'] = "1q2w3e4r";
+$db['default']['password'] = "~=Q*Kw6M]Sp=";
 $db['default']['database'] = "crokoco_basedb";
 
 // The following values can probably stay the same.

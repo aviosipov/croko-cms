@@ -6,7 +6,7 @@ body {
 	color: rgb(90, 90, 90);
 		
 	padding: 0;
-	margin: 0;
+	margin: 5px 10px 10px 10px;
 
 
 	/* temprorary stuff ... remove it later */ 
@@ -24,8 +24,8 @@ body {
 
 
 h3 {
-    font-size: 18px;
-    margin: 0 6px 8px 0;
+    font-size: 20px;
+    margin: 0 6px 10px 0;
     color: #00AEC8;
     font-weight: normal;
     clear: both;
@@ -44,7 +44,7 @@ hr {
 }
 
 label {
-	font-size: 13px;
+	font-size: 15px;
 	padding: 6px 8px;
 	color: rgb(129, 129, 129);
 	float: right;
@@ -56,9 +56,9 @@ label {
 
 h2 {
     color: #9E9E9E;
-    margin: 6px 7px 5px 0;
+    margin: 1px 7px 5px 0;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 27px;
     padding-right: 5px;
 }
 
@@ -659,7 +659,7 @@ img.header {
 
 	border: 0;
 	margin-bottom: 11px;
-	border-top: 1px solid #DDDDDD;
+/*	border-top: 1px solid #DDDDDD; */ 
 	border-bottom: 2px solid rgb(214, 214, 214);	
 
 	height: 40px;
