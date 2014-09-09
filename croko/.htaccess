@@ -1,4 +1,4 @@
 Options +FollowSymLinks
 RewriteEngine on
-RewriteCond $1 !^(index\.php|images|robots\.txt|css|js|gallery|fancybox|squeeze|csv|fonts|tmp|assets)
+RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*)$ /index.php/$1 [L]
